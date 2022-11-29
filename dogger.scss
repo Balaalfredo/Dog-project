@@ -1,0 +1,243 @@
+@import './_color.scss';
+@import './_mixin.scss';
+
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+
+    .border {
+        width: 100vw;
+        height: 100vh;
+        // border: 10px solid black;
+        display: flex;
+
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+
+        .care {
+            width: calc(100%/2);
+            height: stretch;
+        }
+
+        .wecare {
+            width: 65%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            .caree {
+                @include font-size($font-size: 3.8em, $font-weight: 600, $text-align: left);
+                padding: 0 100px;
+            }
+
+            @media (max-width:869px) {
+                .caree {
+                    padding: 0 10px;
+                }
+            }
+
+            #we-always {
+                color: $colorr;
+                font-size: 1.4em;
+                text-align: left;
+                padding: 0 100px;
+                font-weight: 200;
+            }
+
+            @media (max-width:869px) {
+                #we-always {
+                    padding: 0 10px;
+                }
+            }
+
+        }
+
+        @media(max-width:1157px) {
+            .wecare {
+                font-size: 15px;
+            }
+        }
+
+        @media(max-width:593px) {
+            .wecare {
+                font-size: 10px;
+            }
+        }
+
+
+        .dog-img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 35%;
+
+            .dogg {
+                width: 100%;
+                height: 100%;
+                margin: 70px 10px;
+                background-image: url('../src/images/dogger_img_1.png');
+                background-size: cover;
+
+            }
+
+
+        }
+
+        @media(max-width: 1200px) {
+            .dog-img {
+                width: 50%;
+                height: 80%;
+            }
+        }
+
+
+
+
+
+
+    }
+
+    @media(max-width:900px) {
+        .border {
+            flex-direction: column;
+        }
+    }
+
+
+
+
+    .nav-bar {
+        width: 100vw;
+        @extend %df;
+        box-shadow: 1px 1px 5px 1px black;
+        position: fixed;
+        background-color: white;
+        top: 0px;
+
+        .dogger {
+            margin-left: 80px;
+            font-size: 2em;
+            font-weight: 600;
+
+            .dot {
+                color: teal;
+            }
+        }
+
+        .home ul {
+            @include display-flex($font-weight: 400);
+            list-style: none;
+            margin-right: 120px;
+
+
+
+            li {
+                font-size: 1.2em;
+                margin: 0 25px;
+                padding: 10px;
+
+                &:hover {
+                    color: $colorr;
+                }
+            }
+        }
+
+        .bar {
+            margin-right: 80px;
+            display: none;
+            padding: 20px;
+            font-size: 1.2em;
+        }
+
+        @media(max-width:$max-width) {
+            .bar {
+                display: block;
+            }
+        }
+    }
+
+    @media (max-width:$max-width) {
+        .home {
+            display: none;
+        }
+    }
+
+
+
+
+
+    .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 10px;
+
+        .po {
+            @extend %df;
+            flex-direction: column;
+            width: 70%;
+            align-items: center;
+
+            .pow {
+                font-size: 2em;
+                padding: 10px 50px;
+                color: $colorr;
+
+                .left-pow {
+                    font-size: 20px;
+
+                }
+
+                .right-pow {
+                    font-size: 20px;
+                }
+            }
+
+            .welcome-to {
+                font-size: 2.2em;
+                padding: 10px 200px;
+                text-align: center;
+                font-weight: 600;
+
+            }
+
+            @media (max-width:800px) {
+                .welcome-to {
+                    font-size: 1.6em;
+                }
+            }
+
+            .Far {
+                font-size: 1.2em;
+                padding: 10px 150px;
+                text-align: center;
+                color: $colorr;
+                margin: 0 60px;
+            }
+
+            @media (max-width:800px) {
+                .Far {
+                    font-size: 0.6em;
+                }
+            }
+
+        }
+
+        @media (max-width:1000px) {
+            .po {
+                width: 100%;
+            }
+        }
+    }
+
+
+
+
+}
