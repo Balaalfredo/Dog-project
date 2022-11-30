@@ -15,6 +15,7 @@
   position: fixed;
   justify-content: space-around;
   font-size: 30px;
+  background-color: #F8F9FA;
   border-bottom: 2px solid black;
   box-shadow: 2px 1px 5px 2px black;
 }
@@ -55,10 +56,11 @@
 }
 .nav-bar .home .about .trade ul {
   margin: 0;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 40px;
+  font-weight: 550;
   list-style: none;
-  background-color: white;
+  background-color: rgba(243, 235, 235, 0.954);
   height: 300px;
   border-top: 2px solid grey;
   box-shadow: 2px 1px 5px 2px black;
@@ -91,6 +93,7 @@
   width: 100vw;
   height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 16px;
   background-color: #F8F9FA;
@@ -141,25 +144,26 @@
 @media (max-width: 800px) {
   .border {
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
   }
   .border .wecare {
     width: 100%;
-    height: 70%;
+    height: 50%;
     padding-top: 30px;
   }
   .border .wecare h1 {
-    font-size: 2.7em;
+    font-size: 3em;
     text-align: center;
   }
   .border .wecare p {
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
   }
   .border .dog-img {
     width: 100%;
-    background-size: 70%;
+    height: 50%;
+    background-size: 65%;
     background-position: top center;
   }
 }
