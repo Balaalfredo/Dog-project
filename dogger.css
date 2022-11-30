@@ -78,7 +78,7 @@ body .border .dog-img .dogg {
   width: 100%;
   height: 100%;
   margin: 70px 10px;
-  background-image: url("../src/images/dogger_img_1.png");
+  background-image: url("./src/dogger_img_1.png");
   background-size: cover;
 }
 @media (max-width: 1200px) {
