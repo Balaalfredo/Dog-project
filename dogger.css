@@ -1,4 +1,4 @@
-.nav-bar {
+.about-us .aboutt .uss, .about-us, .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +24,7 @@
   font-weight: 600;
 }
 .nav-bar .dogger span {
-  color: #A2C0BE;
+  color: #799290;
 }
 .nav-bar .home {
   font-size: 20px;
@@ -37,7 +37,7 @@
   margin: 15px 25px;
 }
 .nav-bar .home .hh:hover {
-  color: #A2C0BE;
+  color: #799290;
 }
 .nav-bar .home #on {
   display: none;
@@ -112,7 +112,7 @@
 }
 .border .wecare p {
   font-size: 1.6em;
-  color: #A2C0BE;
+  color: #799290;
 }
 .border .dog-img {
   width: 50%;
@@ -187,7 +187,7 @@
 }
 .welcome .well .paw {
   font-size: 2em;
-  color: #A2C0BE;
+  color: #799290;
 }
 .welcome .well .paw .left-paw,
 .welcome .well .paw .right-paw {
@@ -203,7 +203,7 @@
   text-transform: capitalize;
   font-size: 1em;
   line-height: 40px;
-  color: #A2C0BE;
+  color: #799290;
   font-weight: 600;
 }
 @media (max-width: 900px) {
@@ -246,14 +246,14 @@
   margin: 10px;
 }
 .love .love-border .love-care .Far-far {
-  color: #A2C0BE;
+  color: #799290;
   font-size: 1.4em;
   text-align: right;
   margin: 10px;
 }
 .love .love-border .love-care .readme {
   padding: 10px 20px;
-  background-color: #A2C0BE;
+  background-color: #799290;
   border-radius: 30px;
   margin: 10px;
   color: white;
@@ -285,7 +285,7 @@
   padding: 10px;
 }
 .love .love-border .nurse-doctor .nurse-img:hover {
-  box-shadow: 10px 10px 2px 2px #A2C0BE;
+  box-shadow: 10px 10px 2px 2px #799290;
 }
 .love .love-border .fearsome {
   display: flex;
@@ -301,14 +301,14 @@
   margin: 10px;
 }
 .love .love-border .fearsome .Far-far {
-  color: #A2C0BE;
+  color: #799290;
   font-size: 1.4em;
   text-align: left;
   margin: 10px;
 }
 .love .love-border .fearsome .readme {
   padding: 10px 20px;
-  background-color: #A2C0BE;
+  background-color: #799290;
   border-radius: 30px;
   margin: 10px;
   color: white;
@@ -335,7 +335,7 @@
   background-repeat: no-repeat;
 }
 .love .love-border .fearsome-dog .fear-dog-img:hover {
-  box-shadow: 10px 10px 2px 2px #A2C0BE;
+  box-shadow: 10px 10px 2px 2px #799290;
 }
 .love .love-border .beautiful-dog {
   display: flex;
@@ -353,7 +353,7 @@
   background-repeat: no-repeat;
 }
 .love .love-border .beautiful-dog .beautiful-dog-img:hover {
-  box-shadow: 10px 10px 2px 2px #A2C0BE;
+  box-shadow: 10px 10px 2px 2px #799290;
 }
 .love .love-border .beautiful {
   display: flex;
@@ -369,14 +369,14 @@
   margin: 10px;
 }
 .love .love-border .beautiful .Far-far {
-  color: #A2C0BE;
+  color: #799290;
   font-size: 1.4em;
   text-align: right;
   margin: 10px;
 }
 .love .love-border .beautiful .readme {
   padding: 10px 20px;
-  background-color: #A2C0BE;
+  background-color: #799290;
   border-radius: 30px;
   margin: 10px;
   color: white;
@@ -393,5 +393,118 @@
   }
   .love .love-border .ll {
     width: 80%;
+  }
+}
+
+.about-us {
+  width: 100vw;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.about-us .aboutt {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.about-us .aboutt .uss {
+  width: 85%;
+  height: 85%;
+  color: black;
+  font-weight: 600;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 16px;
+}
+.about-us .aboutt .uss span {
+  font-size: 2.3em;
+}
+.about-us .aboutt .uss .pow {
+  color: #799290;
+}
+.about-us .aboutt .uss .aboutt-us {
+  font-size: 2.8em;
+  margin: 10px;
+  font-weight: 650;
+}
+.about-us .aboutt .uss .separate {
+  font-size: 1.8em;
+  font-weight: 300;
+  margin: 10px;
+  color: #799290;
+}
+.about-us .aboutt .uss .small {
+  font-size: 1.4em;
+  font-weight: 400;
+  margin: 10px;
+  color: #799290;
+}
+.about-us .aboutt .uss .small-river ul {
+  list-style: none;
+}
+.about-us .aboutt .uss .small-river ul li {
+  margin: 10px;
+  font-size: 1.4em;
+  font-weight: 400;
+  color: #799290;
+}
+@media (max-width: 1080px) {
+  .about-us .aboutt .uss {
+    font-size: 12px;
+    width: 90%;
+    height: 90%;
+  }
+}
+@media (max-width: 660px) {
+  .about-us .aboutt .uss {
+    font-size: 8px;
+    width: 95%;
+    height: 95%;
+  }
+}
+.about-us .dog-vide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  height: 600px;
+  width: 600px;
+}
+.about-us .dog-vide .dogg-video {
+  width: 90%;
+  height: 100%;
+  background-image: url("./src/dogger_img_big_1.jpg");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center bottom;
+}
+@media (max-width: 1150px) {
+  .about-us .dog-vide .dogg-video {
+    height: 85%;
+  }
+}
+
+@media (max-width: 960px) {
+  .about-us {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-us .aboutt {
+    width: 100%;
+    height: 50%;
+  }
+  .about-us .aboutt .uss {
+    font-size: 18px;
+  }
+  .about-us .dog-vide {
+    height: 600px;
+    width: 600px;
+  }
+  .about-us .dog-vide .dog-video {
+    height: 100%;
+    width: 100%;
   }
 }/*# sourceMappingURL=dogger.css.map */

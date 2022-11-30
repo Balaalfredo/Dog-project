@@ -464,3 +464,143 @@
     }
 
 }
+
+// about-us
+
+.about-us {
+    width: 100vw;
+    // height: 100vh;
+    // border: 2px solid black;
+    @extend %df;
+    justify-content: space-evenly;
+    padding: 20px;
+
+    .aboutt {
+        width: 50%;
+        height: 100%;
+        // border: 4px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        .uss {
+            width: 85%;
+            height: 85%;
+            @include display-flex($justify-content: center);
+            flex-direction: column;
+            align-items: flex-start;
+            font-size: 16px;
+
+            span {
+                font-size: 2.3em;
+            }
+
+            .pow {
+                color: $colorr;
+            }
+
+            .aboutt-us {
+                font-size: 2.8em;
+                margin: 10px;
+                font-weight: 650;
+            }
+
+            .separate {
+                font-size: 1.8em;
+                font-weight: 300;
+                margin: 10px;
+                color: $colorr;
+            }
+
+            .small {
+                font-size: 1.4em;
+                font-weight: 400;
+                margin: 10px;
+                color: $colorr;
+            }
+
+            .small-river ul {
+                list-style: none;
+
+                li {
+                    margin: 10px;
+                    font-size: 1.4em;
+                    font-weight: 400;
+                    color: $colorr;
+                }
+            }
+        }
+
+        @media(max-width:1080px) {
+            .uss {
+                font-size: 12px;
+                width: 90%;
+                height: 90%;
+            }
+        }
+
+        @media(max-width:660px) {
+            .uss {
+                font-size: 8px;
+                width: 95%;
+                height: 95%;
+            }
+        }
+    }
+
+    .dog-vide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: 600px;
+        width: 600px;
+
+        .dogg-video {
+            width: 90%;
+            height: 100%;
+            // border: 2px solid black;
+            background-image: url('./src/dogger_img_big_1.jpg');
+            background-repeat: no-repeat;
+            background-size: 90%;
+            background-position: center bottom;
+        }
+
+        @media(max-width:1150px) {
+            .dogg-video {
+                height: 85%;
+            }
+        }
+    }
+
+}
+
+@media(max-width:960px) {
+    .about-us {
+        flex-direction: column;
+        justify-content: center;
+
+
+
+        .aboutt {
+            width: 100%;
+            height: 50%;
+
+            .uss {
+                font-size: 18px;
+            }
+        }
+
+        .dog-vide {
+            height: 600px;
+            width: 600px;
+
+            .dog-video {
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+    }
+}
