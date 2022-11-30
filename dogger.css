@@ -5,7 +5,7 @@
 }
 
 * {
-  margin: 0;
+  margin: 0px;
   box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -18,9 +18,17 @@
   border-bottom: 2px solid black;
   box-shadow: 2px 1px 5px 2px black;
 }
+.nav-bar .dogger {
+  font-size: 35px;
+  font-weight: 600;
+}
+.nav-bar .dogger span {
+  color: #A2C0BE;
+}
 .nav-bar .home {
   font-size: 20px;
   display: flex;
+  margin: 20px 0;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -38,7 +46,7 @@
 }
 .nav-bar .home .about .trade {
   position: absolute;
-  top: 50px;
+  top: 70px;
   width: 200px;
   display: none;
 }
@@ -83,9 +91,9 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
   font-size: 16px;
+  background-color: #F8F9FA;
 }
 .border .wecare {
   width: 50%;
@@ -93,14 +101,14 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 10px 50px;
+  padding: 10px 80px;
 }
 .border .wecare h1 {
-  font-size: 3.4em;
+  font-size: 3.5em;
   font-weight: 700;
 }
 .border .wecare p {
-  font-size: 1.5em;
+  font-size: 1.6em;
   color: #A2C0BE;
 }
 .border .dog-img {
@@ -110,6 +118,12 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center bottom;
+}
+@media (max-width: 400px) {
+  .border .dog-img {
+    background-size: 40%;
+    background-position: center bottom;
+  }
 }
 @media (max-width: 1100px) {
   .border .wecare h1 {
@@ -151,6 +165,229 @@
 }
 .welcome {
   width: 100vw;
-  height: 100vh;
-  background-color: aqua;
+  height: 60vh;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome .well {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80%;
+  flex-direction: column;
+  padding: 20%;
+  font-size: 16px;
+}
+.welcome .well .paw {
+  font-size: 2em;
+  color: #A2C0BE;
+}
+.welcome .well .paw .left-paw,
+.welcome .well .paw .right-paw {
+  font-size: 0.5em;
+}
+.welcome .well .welcome-to {
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: 700;
+}
+.welcome .well .far {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1em;
+  line-height: 40px;
+  color: #A2C0BE;
+  font-weight: 600;
+}
+@media (max-width: 900px) {
+  .welcome .well {
+    font-size: 12px;
+    padding: 10%;
+  }
+}
+@media (max-width: 500px) {
+  .welcome .well {
+    font-size: 10px;
+    padding: 5%;
+  }
+}
+
+.love {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.love .love-border {
+  width: 95%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.love .love-border .love-care {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+}
+.love .love-border .love-care .care {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: justify;
+  margin: 10px;
+}
+.love .love-border .love-care .Far-far {
+  color: #A2C0BE;
+  font-size: 1.4em;
+  text-align: right;
+  margin: 10px;
+}
+.love .love-border .love-care .readme {
+  padding: 10px 20px;
+  background-color: #A2C0BE;
+  border-radius: 30px;
+  margin: 10px;
+  color: white;
+  transition: 1s;
+}
+.love .love-border .love-care .readme:hover {
+  background-color: black;
+  color: white;
+}
+.love .love-border .ll {
+  width: 45%;
+  height: 50%;
+  padding: 10px;
+}
+.love .love-border .nurse-doctor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 45%;
+}
+.love .love-border .nurse-doctor .nurse-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("./src/dogger_img_sm_3.jpg.webp");
+  background-size: 100%;
+  transition: 1s;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+.love .love-border .nurse-doctor .nurse-img:hover {
+  box-shadow: 10px 10px 2px 2px #A2C0BE;
+}
+.love .love-border .fearsome {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+}
+.love .love-border .fearsome .care {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: left;
+  margin: 10px;
+}
+.love .love-border .fearsome .Far-far {
+  color: #A2C0BE;
+  font-size: 1.4em;
+  text-align: left;
+  margin: 10px;
+}
+.love .love-border .fearsome .readme {
+  padding: 10px 20px;
+  background-color: #A2C0BE;
+  border-radius: 30px;
+  margin: 10px;
+  color: white;
+  transition: 1s;
+}
+.love .love-border .fearsome .readme:hover {
+  background-color: black;
+  color: white;
+}
+.love .love-border .fearsome-dog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 45%;
+}
+.love .love-border .fearsome-dog .fear-dog-img {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-image: url("./src/dogger_img_sm_1.jpg.webp");
+  background-size: 100%;
+  transition: 1s;
+  background-repeat: no-repeat;
+}
+.love .love-border .fearsome-dog .fear-dog-img:hover {
+  box-shadow: 10px 10px 2px 2px #A2C0BE;
+}
+.love .love-border .beautiful-dog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 45%;
+}
+.love .love-border .beautiful-dog .beautiful-dog-img {
+  width: 100%;
+  height: 100%;
+  background-image: url("./src/dogger_img_sm_2.jpg.webp");
+  background-size: 100%;
+  transition: 1s;
+  background-repeat: no-repeat;
+}
+.love .love-border .beautiful-dog .beautiful-dog-img:hover {
+  box-shadow: 10px 10px 2px 2px #A2C0BE;
+}
+.love .love-border .beautiful {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 16px;
+}
+.love .love-border .beautiful .care {
+  font-size: 2.5em;
+  font-weight: 600;
+  text-align: justify;
+  margin: 10px;
+}
+.love .love-border .beautiful .Far-far {
+  color: #A2C0BE;
+  font-size: 1.4em;
+  text-align: right;
+  margin: 10px;
+}
+.love .love-border .beautiful .readme {
+  padding: 10px 20px;
+  background-color: #A2C0BE;
+  border-radius: 30px;
+  margin: 10px;
+  color: white;
+  transition: 1s;
+}
+.love .love-border .beautiful .readme:hover {
+  background-color: black;
+  color: white;
+}
+@media (max-width: 900px) {
+  .love .love-border {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .love .love-border .ll {
+    width: 80%;
+  }
 }/*# sourceMappingURL=dogger.css.map */
