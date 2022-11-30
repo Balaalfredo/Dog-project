@@ -27,6 +27,9 @@
 .nav-bar .home .hh {
   margin: 15px 25px;
 }
+.nav-bar .home .hh:hover {
+  color: #A2C0BE;
+}
 .nav-bar .home #on {
   display: none;
 }
@@ -38,6 +41,9 @@
   top: 50px;
   width: 200px;
   display: none;
+}
+.nav-bar .home .about .trade:hover {
+  color: black;
 }
 .nav-bar .home .about .trade ul {
   margin: 0;
@@ -55,6 +61,7 @@
 }
 .nav-bar .home .about .trade ul li:hover {
   background-color: rgb(210, 185, 185);
+  color: black;
 }
 @media (max-width: 1000px) {
   .nav-bar .home {
