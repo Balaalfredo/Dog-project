@@ -397,7 +397,7 @@
   background-color: black;
   color: white;
 }
-@media (max-width: 900px) {
+@media (max-width: 1020px) {
   .love .love-border {
     flex-direction: column;
     flex-wrap: wrap;

@@ -272,7 +272,7 @@
             justify-content: center;
             flex-direction: column;
             font-size: 17px;
-
+            // order: 2;
 
 
             .care {
@@ -319,6 +319,7 @@
             align-items: center;
             height: 300px;
             width: 45%;
+            // order: 1;
 
             .nurse-img {
                 width: 100%;
@@ -342,6 +343,7 @@
             justify-content: center;
             flex-direction: column;
             font-size: 16px;
+            // order: 4;
 
             .care {
                 font-size: 2.5em;
@@ -381,6 +383,7 @@
             align-items: center;
             height: 300px;
             width: 45%;
+            // order: 3;
 
             .fear-dog-img {
                 width: 100%;
@@ -411,6 +414,7 @@
             .beautiful-dog-img {
                 width: 100%;
                 height: 100%;
+                // order: 6;
 
                 background-image: url('./src/dogger_img_sm_2.jpg.webp');
                 background-size: 100%;
@@ -429,6 +433,7 @@
             justify-content: center;
             flex-direction: column;
             font-size: 16px;
+            // order: 5;
 
             .care {
                 font-size: 2.5em;
@@ -463,7 +468,7 @@
 
     }
 
-    @media (max-width:900px) {
+    @media (max-width:1020px) {
         .love-border {
             // column-count: 1;
             flex-direction: column;
