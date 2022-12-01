@@ -237,7 +237,7 @@
 }
 .love .love-border {
   width: 100%;
-  height: 90%;
+  height: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -361,6 +361,7 @@
   background-image: url("./src/dogger_img_sm_2.jpg.webp");
   background-size: 100%;
   transition: 1s;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .love .love-border .beautiful-dog .beautiful-dog-img:hover {
@@ -401,10 +402,32 @@
   .love .love-border {
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
+    width: 85%;
   }
   .love .love-border .ll {
     width: 100%;
+  }
+  .love .love-border .ll:nth-child(1) {
+    order: 2;
+    background-size: contain;
+  }
+  .love .love-border .ll:nth-child(2) {
+    order: 1;
+    height: 500px;
+  }
+  .love .love-border .ll:nth-child(3) {
+    order: 3;
+  }
+  .love .love-border .ll:nth-child(4) {
+    order: 4;
+  }
+  .love .love-border .ll:nth-child(5) {
+    order: 6;
+  }
+  .love .love-border .ll:nth-child(6) {
+    order: 5;
+    background-size: cover;
+    height: 500px;
   }
 }
 
@@ -569,53 +592,25 @@
 
 .jesi {
   width: 100vw;
-  height: 100vh;
   background-color: #A2C0BE;
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.jesi .pictures {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 95%;
-  height: 95%;
-  flex-wrap: wrap;
-}
-.jesi .pictures .pics {
-  width: 30%;
-  height: 90%;
   border: 2px solid black;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
-.jesi .pictures .pic1 {
-  width: 350px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.jesi .pics {
+  height: 803px;
+  border: 2px solid black;
+  margin: 10px;
 }
-.jesi .pictures .pic1 .top {
-  height: 70%;
-  width: 95%;
-  border: 2px solid;
+@media (max-width: 1150px) {
+  .jesi .pics:nth-child(3) {
+    align-self: stretch;
+  }
 }
-.jesi .pictures .pic1 .bottom {
-  width: 95%;
-  height: 30%;
-  border: 2px solid;
-}
-.jesi .pictures .pic2 {
-  width: 350pxpx;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.jesi .pictures .pic3 {
-  width: 350pxpx;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+@media (max-width: 1150px) {
+  .jesi {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=dogger.css.map */

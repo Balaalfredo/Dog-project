@@ -257,7 +257,7 @@
 
     .love-border {
         width: 100%;
-        height: 90%;
+        height: 100%;
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -419,6 +419,7 @@
                 background-image: url('./src/dogger_img_sm_2.jpg.webp');
                 background-size: 100%;
                 transition: 1s;
+                background-position: center;
                 background-repeat: no-repeat;
 
                 &:hover {
@@ -473,10 +474,45 @@
             // column-count: 1;
             flex-direction: column;
             flex-wrap: wrap;
-            width: 100%;
+            width: 85%;
+
 
             .ll {
                 width: 100%;
+                // height: 100%;
+            }
+
+            .ll:nth-child(1) {
+                order: 2;
+                background-size: contain;
+
+            }
+
+            .ll:nth-child(2) {
+                order: 1;
+                height: 500px;
+            }
+
+            .ll:nth-child(3) {
+                order: 3;
+
+            }
+
+            .ll:nth-child(4) {
+                order: 4;
+
+
+            }
+
+            .ll:nth-child(5) {
+                order: 6;
+
+            }
+
+            .ll:nth-child(6) {
+                order: 5;
+                background-size: cover;
+                height: 500px;
             }
 
         }
@@ -693,65 +729,33 @@
 
 .jesi {
     width: 100vw;
-    height: 100vh;
+    // height: 100vh;
     background-color: #A2C0BE;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    // flex-wrap: wrap;
 
-    .pictures {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 95%;
-        height: 95%;
-        flex-wrap: wrap;
+    .pics {
+        // width: 350px;
+        height: 803px;
+        border: 2px solid black;
+        margin: 10px;
+    }
 
-        .pics {
-            width: (90%/3);
-            height: 90%;
-            border: 2px solid black;
-
-
-        }
-
-        .pic1 {
-            width: 350px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-
-            .top {
-                height: 70%;
-                width: 95%;
-                border: 2px solid;
-            }
-
-            .bottom {
-                width: 95%;
-                height: 30%;
-                border: 2px solid;
-            }
-        }
-
-
-        .pic2 {
-            width: 350pxpx;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-
-        .pic3 {
-            width: 350pxpx;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
+    @media (max-width:1150px) {
+        .pics:nth-child(3) {
+            align-self: stretch;
         }
     }
 
+
+
+}
+
+@media (max-width:1150px) {
+    .jesi {
+        flex-direction: column;
+    }
 }
