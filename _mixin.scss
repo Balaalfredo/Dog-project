@@ -17,3 +17,7 @@
     font-weight: $font-weight;
     text-align: $text-align;
 }
+
+%hover {
+    box-shadow: 4px 4px 4px 4px black, 6px 6px 4px 4px black;
+}

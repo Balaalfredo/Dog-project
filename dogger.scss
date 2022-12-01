@@ -733,30 +733,202 @@
     // height: 100vh;
     background-color: #A2C0BE;
     display: flex;
-    border: 2px solid black;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    // flex-wrap: wrap;
+    // border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
-    .pics {
-        // width: 350px;
-        height: 803px;
-        border: 2px solid black;
-        margin: 10px;
-    }
+    .pictures {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
 
-    @media (max-width:1150px) {
-        .pics:nth-child(3) {
-            align-self: stretch;
+        // border: 2px solid black;
+
+        .pics {
+            width: 350px;
+            height: 803px;
+            // border: 2px solid black;
+            margin: 10px;
         }
+
+        @media (max-width:840px) {
+            .pics {
+                width: 500px;
+
+                .img {
+                    background-size: 100%;
+                    background-position: center;
+                }
+            }
+        }
+
+
+
+        .pics:nth-child(1) {
+            @extend %df;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+
+            .img {
+                width: 100%;
+                height: 60%;
+                // border: 2px solid black;
+                background-image: url('./src/dogger_trainer_1.jpg.webp');
+                background-size: 100%;
+                transition: 1.5s;
+                background-repeat: no-repeat;
+
+                &:hover {
+                    @extend %hover;
+                }
+            }
+
+            .jesica {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                justify-content: center;
+
+                p {
+                    margin: 25px;
+                }
+
+                p:first-child {
+                    font-size: 2em;
+                }
+
+                p:nth-child(3) {
+                    span {
+                        margin: 10px;
+                        padding: 10px 15px;
+                        background-color: white;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+
+        }
+
+
+
+
+        .pics:nth-child(2) {
+            @extend %df;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+
+            .img {
+                width: 100%;
+                height: 60%;
+                // border: 2px solid black;
+                background-image: url('./src/dogger_trainer_2.jpg.webp');
+                background-size: 100%;
+                transition: 1.5s;
+
+                &:hover {
+                    @extend %hover;
+                }
+            }
+
+            .jesica {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                justify-content: center;
+
+                p {
+                    margin: 25px;
+                }
+
+                p:first-child {
+                    font-size: 2em;
+                }
+
+                p:nth-child(3) {
+
+
+                    span {
+
+                        margin: 10px;
+                        padding: 10px 15px;
+                        background-color: white;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+
+        }
+
+
+        .pics:nth-child(3) {
+            @extend %df;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            // flex-grow: 1;
+
+            .img {
+                width: 100%;
+                height: 60%;
+                // border: 2px solid black;
+                background-image: url('./src/dogger_trainer_3.jpg.webp');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                transition: 1.5s;
+                // flex-grow: 1;
+
+                &:hover {
+                    @extend %hover;
+                }
+            }
+
+            .jesica {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                justify-content: center;
+
+                p {
+                    margin: 25px;
+                }
+
+                p:first-child {
+                    font-size: 2em;
+                }
+
+                p:nth-child(3) {
+                    span {
+                        margin: 10px;
+                        padding: 10px 15px;
+                        background-color: white;
+                        border-radius: 50%;
+
+
+
+
+
+                    }
+
+
+                }
+            }
+
+
+        }
+
+
+
+
     }
 
 
 
-}
 
-@media (max-width:1150px) {
-    .jesi {
-        flex-direction: column;
-    }
 }
