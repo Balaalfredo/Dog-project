@@ -631,10 +631,10 @@
 
 }
 
-@media(max-width:960px) {
+@media(max-width:950px) {
     .about-us {
         flex-direction: column;
-        justify-content: center;
+
 
 
 
@@ -648,8 +648,9 @@
         }
 
         .dog-vide {
-            height: 600px;
-            width: 600px;
+            height: 800px;
+            align-self: stretch;
+            // width: 600px;
 
             .dog-video {
                 height: 100%;
