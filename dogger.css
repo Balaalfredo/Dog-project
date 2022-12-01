@@ -519,4 +519,103 @@
     height: 100%;
     width: 100%;
   }
+}
+.ourtrainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A2C0BE;
+}
+.ourtrainer .ourr {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+.ourtrainer .ourr .our-trainer {
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.ourtrainer .ourr .our-trainer p:first-child {
+  font-size: 1em;
+  color: white;
+}
+.ourtrainer .ourr .our-trainer p:first-child span {
+  font-size: 2.4em;
+}
+.ourtrainer .ourr .our-trainer p:nth-child(2) {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.ourtrainer .ourr .our-trainer p:last-child {
+  font-size: 1.7em;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+@media (max-width: 1050px) {
+  .ourtrainer .ourr .our-trainer {
+    width: 90%;
+    font-size: 18px;
+  }
+}
+
+.jesi {
+  width: 100vw;
+  height: 100vh;
+  background-color: #A2C0BE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jesi .pictures {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  height: 95%;
+  flex-wrap: wrap;
+}
+.jesi .pictures .pics {
+  width: 30%;
+  height: 90%;
+  border: 2px solid black;
+}
+.jesi .pictures .pic1 {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.jesi .pictures .pic1 .top {
+  height: 70%;
+  width: 95%;
+  border: 2px solid;
+}
+.jesi .pictures .pic1 .bottom {
+  width: 95%;
+  height: 30%;
+  border: 2px solid;
+}
+.jesi .pictures .pic2 {
+  width: 350pxpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.jesi .pictures .pic3 {
+  width: 350pxpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }/*# sourceMappingURL=dogger.css.map */

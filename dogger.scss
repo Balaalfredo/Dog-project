@@ -618,3 +618,135 @@
 
     }
 }
+
+// our-trainer
+
+.ourtrainer {
+    width: 100vw;
+    // height: 100vh;
+    // border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A2C0BE;
+
+    .ourr {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+
+        .our-trainer {
+            display: flex;
+            font-size: 16px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+
+            p:first-child {
+                font-size: 1em;
+                color: white;
+
+                span {
+                    font-size: 2.4em;
+                }
+
+            }
+
+            p:nth-child(2) {
+                font-size: 2.5em;
+                font-weight: 600;
+            }
+
+            p:last-child {
+                font-size: 1.7em;
+                line-height: 50px;
+                text-align: center;
+                margin-bottom: 20px;
+                color: black;
+            }
+
+        }
+
+        @media (max-width:1050px) {
+            .our-trainer {
+                width: 90%;
+                font-size: 18px;
+            }
+        }
+
+
+
+
+    }
+}
+
+// jesi
+
+
+.jesi {
+    width: 100vw;
+    height: 100vh;
+    background-color: #A2C0BE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .pictures {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 95%;
+        height: 95%;
+        flex-wrap: wrap;
+
+        .pics {
+            width: (90%/3);
+            height: 90%;
+            border: 2px solid black;
+
+
+        }
+
+        .pic1 {
+            width: 350px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            .top {
+                height: 70%;
+                width: 95%;
+                border: 2px solid;
+            }
+
+            .bottom {
+                width: 95%;
+                height: 30%;
+                border: 2px solid;
+            }
+        }
+
+
+        .pic2 {
+            width: 350pxpx;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+
+        .pic3 {
+            width: 350pxpx;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+
+}
