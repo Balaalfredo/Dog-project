@@ -775,7 +775,7 @@
 
             .img {
                 width: 100%;
-                height: 60%;
+                height: 58%;
                 // border: 2px solid black;
                 background-image: url('./src/dogger_trainer_1.jpg.webp');
                 background-size: 100%;
@@ -802,12 +802,37 @@
                 }
 
                 p:nth-child(3) {
+                    position: relative;
+
                     span {
                         margin: 10px;
-                        padding: 10px 15px;
+                        padding: 8px 12px;
                         background-color: white;
                         border-radius: 50%;
+                        position: absolute;
+                        bottom: -40px;
+                        transition: 1s;
+
+                        &:hover {
+                            transform: translateY(-20px);
+                        }
+
                     }
+
+                    span:nth-child(2) {
+                        left: 70px;
+
+
+                    }
+
+
+
+                    span:nth-child(3) {
+                        left: 140px;
+                        padding: 8px 14px;
+                    }
+
+
                 }
             }
 
@@ -825,7 +850,7 @@
 
             .img {
                 width: 100%;
-                height: 60%;
+                height: 58%;
                 // border: 2px solid black;
                 background-image: url('./src/dogger_trainer_2.jpg.webp');
                 background-size: 100%;
@@ -851,15 +876,36 @@
                 }
 
                 p:nth-child(3) {
-
+                    position: relative;
 
                     span {
 
                         margin: 10px;
-                        padding: 10px 15px;
+                        padding: 8px 12px;
                         background-color: white;
                         border-radius: 50%;
+                        position: absolute;
+                        transition: 1s;
+                        bottom: -40px;
+
+                        &:hover {
+                            transform: translateY(-20px);
+                        }
                     }
+
+                    span:nth-child(2) {
+                        left: 70px;
+
+
+                    }
+
+
+
+                    span:nth-child(3) {
+                        left: 140px;
+                        padding: 8px 14px;
+                    }
+
                 }
             }
 
@@ -876,10 +922,11 @@
 
             .img {
                 width: 100%;
-                height: 60%;
+                height: 58%;
                 // border: 2px solid black;
                 background-image: url('./src/dogger_trainer_3.jpg.webp');
                 background-size: 100%;
+                background-position: center;
                 background-repeat: no-repeat;
                 transition: 1.5s;
                 // flex-grow: 1;
@@ -904,11 +951,20 @@
                 }
 
                 p:nth-child(3) {
+                    position: relative;
+
                     span {
                         margin: 10px;
-                        padding: 10px 15px;
+                        padding: 8px 12px;
                         background-color: white;
                         border-radius: 50%;
+                        position: absolute;
+                        transition: 1s;
+                        bottom: -40px;
+
+                        &:hover {
+                            transform: translateY(-20px);
+                        }
 
 
 
@@ -916,19 +972,75 @@
 
                     }
 
+                    span:nth-child(2) {
+                        left: 70px;
 
+
+                    }
+
+
+
+                    span:nth-child(3) {
+                        left: 140px;
+                        padding: 8px 14px;
+                    }
                 }
             }
 
 
         }
 
+    }
+}
 
 
+// pricing
 
+.pricing {
+    width: 100vw;
+    // border: 2px solid black;
+    @include display;
+    font-size: 16px;
+
+    .table {
+        width: 70%;
+        // border: 2px solid black;
+        @include display;
+        font-size: 16px;
+
+        p {
+            margin: 10px;
+        }
+
+        p:first-child {
+            font-size: 1em;
+            text-align: center;
+            color: $colorr;
+
+            span {
+                font-size: 2.4em;
+            }
+
+        }
+
+        p:nth-child(2) {
+            font-size: 3em;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        p:last-child {
+            color: $colorr;
+            font-size: 1.5em;
+            text-align: center;
+            font-weight: 550;
+        }
     }
 
-
-
-
+    @media (max-width:1000px) {
+        .table {
+            width: 90%;
+            font-size: 18px;
+        }
+    }
 }

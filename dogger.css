@@ -629,7 +629,7 @@
 }
 .jesi .pictures .pics:nth-child(1) .img {
   width: 100%;
-  height: 60%;
+  height: 58%;
   background-image: url("./src/dogger_trainer_1.jpg.webp");
   background-size: 100%;
   transition: 1.5s;
@@ -647,11 +647,27 @@
 .jesi .pictures .pics:nth-child(1) .jesica p:first-child {
   font-size: 2em;
 }
+.jesi .pictures .pics:nth-child(1) .jesica p:nth-child(3) {
+  position: relative;
+}
 .jesi .pictures .pics:nth-child(1) .jesica p:nth-child(3) span {
   margin: 10px;
-  padding: 10px 15px;
+  padding: 8px 12px;
   background-color: white;
   border-radius: 50%;
+  position: absolute;
+  bottom: -40px;
+  transition: 1s;
+}
+.jesi .pictures .pics:nth-child(1) .jesica p:nth-child(3) span:hover {
+  transform: translateY(-20px);
+}
+.jesi .pictures .pics:nth-child(1) .jesica p:nth-child(3) span:nth-child(2) {
+  left: 70px;
+}
+.jesi .pictures .pics:nth-child(1) .jesica p:nth-child(3) span:nth-child(3) {
+  left: 140px;
+  padding: 8px 14px;
 }
 .jesi .pictures .pics:nth-child(2) {
   justify-content: flex-start;
@@ -660,7 +676,7 @@
 }
 .jesi .pictures .pics:nth-child(2) .img {
   width: 100%;
-  height: 60%;
+  height: 58%;
   background-image: url("./src/dogger_trainer_2.jpg.webp");
   background-size: 100%;
   transition: 1.5s;
@@ -677,11 +693,27 @@
 .jesi .pictures .pics:nth-child(2) .jesica p:first-child {
   font-size: 2em;
 }
+.jesi .pictures .pics:nth-child(2) .jesica p:nth-child(3) {
+  position: relative;
+}
 .jesi .pictures .pics:nth-child(2) .jesica p:nth-child(3) span {
   margin: 10px;
-  padding: 10px 15px;
+  padding: 8px 12px;
   background-color: white;
   border-radius: 50%;
+  position: absolute;
+  transition: 1s;
+  bottom: -40px;
+}
+.jesi .pictures .pics:nth-child(2) .jesica p:nth-child(3) span:hover {
+  transform: translateY(-20px);
+}
+.jesi .pictures .pics:nth-child(2) .jesica p:nth-child(3) span:nth-child(2) {
+  left: 70px;
+}
+.jesi .pictures .pics:nth-child(2) .jesica p:nth-child(3) span:nth-child(3) {
+  left: 140px;
+  padding: 8px 14px;
 }
 .jesi .pictures .pics:nth-child(3) {
   justify-content: flex-start;
@@ -690,9 +722,10 @@
 }
 .jesi .pictures .pics:nth-child(3) .img {
   width: 100%;
-  height: 60%;
+  height: 58%;
   background-image: url("./src/dogger_trainer_3.jpg.webp");
   background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
   transition: 1.5s;
 }
@@ -708,9 +741,70 @@
 .jesi .pictures .pics:nth-child(3) .jesica p:first-child {
   font-size: 2em;
 }
+.jesi .pictures .pics:nth-child(3) .jesica p:nth-child(3) {
+  position: relative;
+}
 .jesi .pictures .pics:nth-child(3) .jesica p:nth-child(3) span {
   margin: 10px;
-  padding: 10px 15px;
+  padding: 8px 12px;
   background-color: white;
   border-radius: 50%;
+  position: absolute;
+  transition: 1s;
+  bottom: -40px;
+}
+.jesi .pictures .pics:nth-child(3) .jesica p:nth-child(3) span:hover {
+  transform: translateY(-20px);
+}
+.jesi .pictures .pics:nth-child(3) .jesica p:nth-child(3) span:nth-child(2) {
+  left: 70px;
+}
+.jesi .pictures .pics:nth-child(3) .jesica p:nth-child(3) span:nth-child(3) {
+  left: 140px;
+  padding: 8px 14px;
+}
+
+.pricing {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+.pricing .table {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+.pricing .table p {
+  margin: 10px;
+}
+.pricing .table p:first-child {
+  font-size: 1em;
+  text-align: center;
+  color: #799290;
+}
+.pricing .table p:first-child span {
+  font-size: 2.4em;
+}
+.pricing .table p:nth-child(2) {
+  font-size: 3em;
+  text-align: center;
+  font-weight: 600;
+}
+.pricing .table p:last-child {
+  color: #799290;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 550;
+}
+@media (max-width: 1000px) {
+  .pricing .table {
+    width: 90%;
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=dogger.css.map */

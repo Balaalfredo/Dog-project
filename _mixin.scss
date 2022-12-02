@@ -21,3 +21,11 @@
 %hover {
     box-shadow: 4px 4px 4px 4px black, 6px 6px 4px 4px black;
 }
+
+
+@mixin display($display: flex, $flex-dire: column, $justify-content: center, $align-items: center) {
+    display: $display;
+    justify-content: $justify-content;
+    flex-direction: $flex-dire;
+    align-items: $align-items;
+}
