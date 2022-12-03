@@ -10,7 +10,7 @@
 
     .pictures {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         width: 90%;
@@ -260,5 +260,25 @@
 
         }
 
+    }
+
+    @media(max-width:1233px) {
+        .pictures {
+            justify-content: flex-start;
+
+            .pics {
+                width: 450px;
+            }
+        }
+    }
+
+    @media(max-width:1045px) {
+        .pictures {
+            justify-content: center;
+
+            .pics {
+                width: 500px;
+            }
+        }
     }
 }
