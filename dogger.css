@@ -807,4 +807,201 @@
     width: 90%;
     font-size: 18px;
   }
+}
+
+.basic {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 40px;
+}
+.basic .basicc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.basic .basicc .lef {
+  width: 30%;
+  height: 700px;
+  margin: 20px 20px;
+}
+@media (max-width: 1200px) {
+  .basic .basicc .lef {
+    width: 40%;
+  }
+}
+@media (max-width: 900px) {
+  .basic .basicc .lef {
+    width: 60%;
+  }
+}
+@media (max-width: 650px) {
+  .basic .basicc .lef {
+    width: 75%;
+  }
+}
+.basic .basicc .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A2C0BE;
+}
+.basic .basicc .left .bassi {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 16px;
+  color: white;
+}
+.basic .basicc .left .bassi p:first-child {
+  font-size: 3em;
+}
+.basic .basicc .left .bassi p:nth-child(2) {
+  font-size: 3em;
+}
+.basic .basicc .left .bassi ul {
+  list-style: none;
+}
+.basic .basicc .left .bassi ul li {
+  line-height: 35px;
+  font-size: 1.5em;
+}
+.basic .basicc .left .bassi ul li span {
+  font-size: 0.6em;
+}
+.basic .basicc .left .bassi ul li:nth-child(3) {
+  text-decoration: line-through;
+}
+.basic .basicc .left .bassi ul li:nth-child(4) {
+  text-decoration: line-through;
+}
+.basic .basicc .left .bassi ul li:nth-child(5) {
+  text-decoration: line-through;
+}
+.basic .basicc .left .bassi p:last-child {
+  padding: 15px 20px;
+  background-color: #184e4a;
+  border-radius: 30px;
+}
+.basic .basicc .left .bassi p:last-child:hover {
+  background-color: black;
+}
+@media (max-width: 920px) {
+  .basic .basicc .left .bassi {
+    font-size: 14px;
+  }
+}
+.basic .basicc .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #343A40;
+}
+.basic .basicc .center .bassi {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 16px;
+  color: white;
+}
+.basic .basicc .center .bassi p:first-child {
+  font-size: 3em;
+}
+.basic .basicc .center .bassi p:nth-child(2) {
+  font-size: 3em;
+}
+.basic .basicc .center .bassi ul {
+  list-style: none;
+}
+.basic .basicc .center .bassi ul li {
+  line-height: 35px;
+  font-size: 1.5em;
+}
+.basic .basicc .center .bassi ul li span {
+  font-size: 0.6em;
+}
+.basic .basicc .center .bassi ul li:nth-child(3) {
+  text-decoration: line-through;
+}
+.basic .basicc .center .bassi ul li:nth-child(4) {
+  text-decoration: line-through;
+}
+.basic .basicc .center .bassi ul li:nth-child(5) {
+  text-decoration: line-through;
+}
+.basic .basicc .center .bassi p:last-child {
+  padding: 15px 20px;
+  background-color: #A2C0BE;
+  border-radius: 30px;
+}
+.basic .basicc .center .bassi p:last-child:hover {
+  background-color: black;
+}
+@media (max-width: 920px) {
+  .basic .basicc .center .bassi {
+    font-size: 14px;
+  }
+}
+.basic .basicc .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A2C0BE;
+}
+.basic .basicc .right .bassi {
+  width: 100%;
+  height: 95%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 16px;
+  color: white;
+}
+.basic .basicc .right .bassi p:first-child {
+  font-size: 3em;
+}
+.basic .basicc .right .bassi p:nth-child(2) {
+  font-size: 3em;
+}
+.basic .basicc .right .bassi ul {
+  list-style: none;
+}
+.basic .basicc .right .bassi ul li {
+  line-height: 35px;
+  font-size: 1.5em;
+}
+.basic .basicc .right .bassi ul li span {
+  font-size: 0.6em;
+}
+.basic .basicc .right .bassi ul li:nth-child(3) {
+  text-decoration: line-through;
+}
+.basic .basicc .right .bassi ul li:nth-child(4) {
+  text-decoration: line-through;
+}
+.basic .basicc .right .bassi ul li:nth-child(5) {
+  text-decoration: line-through;
+}
+.basic .basicc .right .bassi p:last-child {
+  padding: 15px 20px;
+  background-color: #184e4a;
+  border-radius: 30px;
+}
+.basic .basicc .right .bassi p:last-child:hover {
+  background-color: black;
+}
+@media (max-width: 920px) {
+  .basic .basicc .right .bassi {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=dogger.css.map */

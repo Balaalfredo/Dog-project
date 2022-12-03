@@ -1044,3 +1044,272 @@
         }
     }
 }
+
+
+// basic
+
+.basic {
+    width: 100vw;
+    // border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    // flex-wrap: wrap;
+    padding: 20px 40px;
+
+    .basicc {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        .lef {
+            width: 30%;
+            // border: 2px solid red;
+            height: 700px;
+            margin: 20px 20px;
+        }
+
+        @media(max-width:1200px) {
+            .lef {
+                width: 40%;
+            }
+        }
+
+        @media(max-width:900px) {
+            .lef {
+                width: 60%;
+            }
+        }
+
+        @media(max-width:650px) {
+            .lef {
+                width: 75%;
+            }
+        }
+
+        .left {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #A2C0BE;
+
+            .bassi {
+                width: 100%;
+                height: 95%;
+                // border: 2px solid black;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-evenly;
+                font-size: 16px;
+                color: white;
+
+                p:first-child {
+                    font-size: 3em;
+
+                }
+
+                p:nth-child(2) {
+                    font-size: 3em;
+
+                }
+
+                ul {
+                    list-style: none;
+
+                    li {
+                        line-height: 35px;
+                        font-size: 1.5em;
+
+                        span {
+                            font-size: 0.6em;
+                        }
+                    }
+
+                    li:nth-child(3) {
+                        text-decoration: line-through;
+                    }
+
+                    li:nth-child(4) {
+                        text-decoration: line-through;
+                    }
+
+                    li:nth-child(5) {
+                        text-decoration: line-through;
+                    }
+                }
+
+                p:last-child {
+                    padding: 15px 20px;
+                    background-color: #184e4a;
+                    border-radius: 30px;
+
+
+                    &:hover {
+                        background-color: black;
+                    }
+                }
+
+            }
+
+            @media(max-width:920px) {
+                .bassi {
+                    font-size: 14px;
+                }
+            }
+
+
+        }
+
+
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #343A40;
+
+            .bassi {
+                width: 100%;
+                height: 95%;
+                // border: 2px solid black;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-evenly;
+                font-size: 16px;
+                color: white;
+
+                p:first-child {
+                    font-size: 3em;
+
+                }
+
+                p:nth-child(2) {
+                    font-size: 3em;
+
+                }
+
+                ul {
+                    list-style: none;
+
+                    li {
+                        line-height: 35px;
+                        font-size: 1.5em;
+
+                        span {
+                            font-size: 0.6em;
+                        }
+                    }
+
+                    li:nth-child(3) {
+                        text-decoration: line-through;
+                    }
+
+                    li:nth-child(4) {
+                        text-decoration: line-through;
+                    }
+
+                    li:nth-child(5) {
+                        text-decoration: line-through;
+                    }
+                }
+
+                p:last-child {
+                    padding: 15px 20px;
+                    background-color: #A2C0BE;
+                    border-radius: 30px;
+
+                    &:hover {
+                        background-color: black;
+                    }
+                }
+
+            }
+
+            @media(max-width:920px) {
+                .bassi {
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+        .right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #A2C0BE;
+
+            .bassi {
+                width: 100%;
+                height: 95%;
+                // border: 2px solid black;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-evenly;
+                font-size: 16px;
+                color: white;
+
+                p:first-child {
+                    font-size: 3em;
+
+                }
+
+                p:nth-child(2) {
+                    font-size: 3em;
+
+                }
+
+                ul {
+                    list-style: none;
+
+                    li {
+                        line-height: 35px;
+                        font-size: 1.5em;
+
+                        span {
+                            font-size: 0.6em;
+                        }
+                    }
+
+                    li:nth-child(3) {
+                        text-decoration: line-through;
+                    }
+
+                    li:nth-child(4) {
+                        text-decoration: line-through;
+                    }
+
+                    li:nth-child(5) {
+                        text-decoration: line-through;
+                    }
+                }
+
+                p:last-child {
+                    padding: 15px 20px;
+                    background-color: #184e4a;
+                    border-radius: 30px;
+
+                    &:hover {
+                        background-color: black;
+                    }
+                }
+
+            }
+
+            @media(max-width:920px) {
+                .bassi {
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+
+
+    }
+}
