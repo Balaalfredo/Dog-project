@@ -8,12 +8,6 @@
   box-shadow: 4px 4px 4px 4px black, 6px 6px 4px 4px black;
 }
 
-* {
-  margin: 0px;
-  box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-}
-
 .nav-bar {
   width: 100vw;
   position: fixed;
@@ -181,59 +175,6 @@
     background-position: top;
   }
 }
-.welcome {
-  width: 100vw;
-  font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.welcome .well {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  flex-direction: column;
-  padding: 10%;
-  font-size: 16px;
-}
-.welcome .well .paw {
-  font-size: 2em;
-  color: #799290;
-}
-.welcome .well .paw .left-paw,
-.welcome .well .paw .right-paw {
-  font-size: 0.5em;
-}
-.welcome .well .welcome-to {
-  font-size: 2.5em;
-  text-align: center;
-  font-weight: 700;
-}
-.welcome .well .farr {
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 40px;
-  color: #799290;
-  width: 100%;
-  font-weight: 600;
-}
-@media (max-width: 900px) {
-  .welcome .well {
-    width: 100%;
-    height: 100%;
-    font-size: 25px;
-    padding: 10%;
-  }
-}
-@media (max-width: 500px) {
-  .welcome .well {
-    font-size: 10px;
-    padding: 5%;
-  }
-}
-
 .love {
   width: 100vw;
   display: flex;
@@ -546,53 +487,6 @@
     width: 100%;
   }
 }
-.ourtrainer {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #A2C0BE;
-}
-.ourtrainer .ourr {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
-  width: 95%;
-}
-.ourtrainer .ourr .our-trainer {
-  display: flex;
-  font-size: 16px;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  width: 50%;
-}
-.ourtrainer .ourr .our-trainer p:first-child {
-  font-size: 1em;
-  color: white;
-}
-.ourtrainer .ourr .our-trainer p:first-child span {
-  font-size: 2.4em;
-}
-.ourtrainer .ourr .our-trainer p:nth-child(2) {
-  font-size: 2.5em;
-  font-weight: 600;
-}
-.ourtrainer .ourr .our-trainer p:last-child {
-  font-size: 1.7em;
-  line-height: 50px;
-  text-align: center;
-  margin-bottom: 20px;
-  color: black;
-}
-@media (max-width: 1050px) {
-  .ourtrainer .ourr .our-trainer {
-    width: 90%;
-    font-size: 18px;
-  }
-}
-
 .jesi {
   width: 100vw;
   background-color: #A2C0BE;
@@ -762,6 +656,112 @@
 .jesi .pictures .pics:nth-child(3) .jesica p:nth-child(3) span:nth-child(3) {
   left: 140px;
   padding: 8px 14px;
+}
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.welcome {
+  width: 100vw;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome .well {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  padding: 10%;
+  font-size: 16px;
+}
+.welcome .well .paw {
+  font-size: 2em;
+  color: #799290;
+}
+.welcome .well .paw .left-paw,
+.welcome .well .paw .right-paw {
+  font-size: 0.5em;
+}
+.welcome .well .welcome-to {
+  font-size: 2.5em;
+  text-align: center;
+  font-weight: 700;
+}
+.welcome .well .farr {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 40px;
+  color: #799290;
+  width: 100%;
+  font-weight: 600;
+}
+@media (max-width: 900px) {
+  .welcome .well {
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    padding: 10%;
+  }
+}
+@media (max-width: 500px) {
+  .welcome .well {
+    font-size: 10px;
+    padding: 5%;
+  }
+}
+
+.ourtrainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A2C0BE;
+}
+.ourtrainer .ourr {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
+}
+.ourtrainer .ourr .our-trainer {
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.ourtrainer .ourr .our-trainer p:first-child {
+  font-size: 1em;
+  color: white;
+}
+.ourtrainer .ourr .our-trainer p:first-child span {
+  font-size: 2.4em;
+}
+.ourtrainer .ourr .our-trainer p:nth-child(2) {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+.ourtrainer .ourr .our-trainer p:last-child {
+  font-size: 1.7em;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+@media (max-width: 1050px) {
+  .ourtrainer .ourr .our-trainer {
+    width: 90%;
+    font-size: 18px;
+  }
 }
 
 .pricing {
