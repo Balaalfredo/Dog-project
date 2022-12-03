@@ -79,7 +79,7 @@
 .nav-bar .menu {
   margin-right: 50px;
   display: none;
-  margin: 20px;
+  margin: 40px;
 }
 @media (max-width: 1000px) {
   .nav-bar .menu {
@@ -173,6 +173,19 @@
     height: 100%;
     background-size: 100%;
     background-position: top;
+  }
+}
+@media (max-width: 600px) {
+  .border {
+    align-items: flex-start;
+  }
+  .border .wecare h1 {
+    font-size: 4em;
+    text-align: center;
+  }
+  .border .wecare p {
+    font-size: 1.5em;
+    text-align: center;
   }
 }
 .love {
@@ -674,6 +687,88 @@
   }
 }
 
+.photo {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.photo .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+}
+.photo .gallery .photos {
+  width: 24%;
+  height: 270px;
+  margin: 0px 5px;
+  transition: 1s;
+}
+.photo .gallery .photos:hover {
+  transform: scaleX(1.3) scaleY(1.2);
+}
+@media (max-width: 1050px) {
+  .photo .gallery .photos {
+    width: 30%;
+    height: 250px;
+  }
+}
+@media (max-width: 900px) {
+  .photo .gallery .photos {
+    width: 40%;
+    height: 250px;
+  }
+}
+.photo .gallery .photos:nth-child(1),
+.photo .gallery .photos:nth-child(7) {
+  background-image: url("./src/dogger_img_sm_1.jpg.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo .gallery .photos:nth-child(2),
+.photo .gallery .photos:nth-child(8) {
+  background-image: url("./src/dogger_img_sm_2.jpg.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo .gallery .photos:nth-child(3),
+.photo .gallery .photos:nth-child(9) {
+  background-image: url("./src/dogger_img_sm_3.jpg.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo .gallery .photos:nth-child(4),
+.photo .gallery .photos:nth-child(10) {
+  background-image: url("./src/dogger_img_sm_4.jpg.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo .gallery .photos:nth-child(5),
+.photo .gallery .photos:nth-child(11) {
+  background-image: url("./src/dogger_img_sm_5.jpg.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.photo .gallery .photos:nth-child(6),
+.photo .gallery .photos:nth-child(12) {
+  background-image: url("./src/dogger_img_sm_6.jpg.webp");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1050px) {
+  .photo {
+    width: 100%;
+  }
+}
+
 * {
   margin: 0px;
   box-sizing: border-box;
@@ -844,19 +939,19 @@
   height: 700px;
   margin: 20px 20px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
   .basic .basicc .lef {
-    width: 40%;
+    width: 45%;
   }
 }
 @media (max-width: 900px) {
   .basic .basicc .lef {
-    width: 60%;
+    width: 70%;
   }
 }
 @media (max-width: 650px) {
   .basic .basicc .lef {
-    width: 75%;
+    width: 85%;
   }
 }
 .basic .basicc .left {
@@ -880,6 +975,9 @@
 }
 .basic .basicc .left .bassi p:nth-child(2) {
   font-size: 3em;
+}
+.basic .basicc .left .bassi p:nth-child(2) span {
+  font-size: 0.5em;
 }
 .basic .basicc .left .bassi ul {
   list-style: none;
@@ -935,6 +1033,9 @@
 .basic .basicc .center .bassi p:nth-child(2) {
   font-size: 3em;
 }
+.basic .basicc .center .bassi p:nth-child(2) span {
+  font-size: 0.5em;
+}
 .basic .basicc .center .bassi ul {
   list-style: none;
 }
@@ -989,6 +1090,9 @@
 .basic .basicc .right .bassi p:nth-child(2) {
   font-size: 3em;
 }
+.basic .basicc .right .bassi p:nth-child(2) span {
+  font-size: 0.5em;
+}
 .basic .basicc .right .bassi ul {
   list-style: none;
 }
@@ -1024,5 +1128,10 @@
 @media (max-width: 1280px) {
   .basic .basicc {
     justify-content: flex-start;
+  }
+}
+@media (max-width: 900px) {
+  .basic .basicc {
+    justify-content: center;
   }
 }/*# sourceMappingURL=dogger.css.map */
