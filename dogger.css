@@ -98,27 +98,30 @@
   right: 0;
   background-color: white;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  transform: translateX(300px);
+  flex-direction: column;
 }
 #navigation #navclose {
-  width: 40px;
+  width: 100%;
   height: 40px;
-  border-radius: 50%;
-  align-self: flex-start;
-  margin: 30px;
+  align-self: flex-end;
   padding: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   font-size: 1em;
 }
-#navigation #navclose:hover {
+#navigation #navclose #closee {
+  padding: 10px 20px;
+  border-radius: 50%;
+}
+#navigation #navclose #closee:hover {
   background-color: rgb(228, 204, 204);
 }
 #navigation #navcontent {
-  width: 75%;
+  width: 100%;
+  margin-top: 20px;
   height: 70%;
   display: flex;
   justify-content: center;
@@ -130,6 +133,7 @@
   padding: 10px 80px;
   padding-left: 0px;
   text-align: center;
+  font-size: 1.5em;
 }
 #navigation #navcontent p:hover {
   background-color: rgb(228, 204, 204);
