@@ -76,15 +76,66 @@
     display: none;
   }
 }
-.nav-bar .menu {
+.nav-bar #menu {
   margin-right: 50px;
   display: none;
   margin: 40px;
 }
 @media (max-width: 1000px) {
-  .nav-bar .menu {
+  .nav-bar #menu {
     display: block;
   }
+  .nav-bar #menu #openn {
+    display: block;
+  }
+}
+
+#navigation {
+  width: 300px;
+  height: 100vh;
+  top: 0px;
+  position: fixed;
+  right: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(300px);
+}
+#navigation #navclose {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  align-self: flex-start;
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+}
+#navigation #navclose:hover {
+  background-color: rgb(228, 204, 204);
+}
+#navigation #navcontent {
+  width: 75%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#navigation #navcontent p {
+  margin: 20px 0;
+  padding: 10px 80px;
+  padding-left: 0px;
+  text-align: center;
+}
+#navigation #navcontent p:hover {
+  background-color: rgb(228, 204, 204);
+}
+#navigation #navcontent p:nth-child(2) {
+  display: flex;
 }
 
 .border {
@@ -770,6 +821,154 @@
 @media (max-width: 1050px) {
   .photo {
     width: 100%;
+  }
+}
+
+.should {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.should .box {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.should .box .twoo {
+  width: 500px;
+  height: 640px;
+}
+@media (max-width: 1249px) {
+  .should .box .twoo {
+    width: 800px;
+    height: 500px;
+  }
+}
+.should .box .twoo:first-child {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  order: 1;
+}
+.should .box .twoo:first-child .four {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.should .box .twoo:first-child .four #p1 {
+  margin: 10px;
+  font-size: 1.4em;
+}
+.should .box .twoo:first-child .four #p1 #down1 {
+  color: #799290;
+  font-size: 0.7em;
+  padding: 5px 8px;
+  border: 1px solid #799290;
+  border-radius: 50%;
+}
+.should .box .twoo:first-child .four #p2 {
+  margin: 10px;
+  padding-left: 30px;
+  display: none;
+  color: #799290;
+}
+.should .box .twoo:first-child .should2 #p11 {
+  margin: 10px;
+  font-size: 1.4em;
+}
+.should .box .twoo:first-child .should2 #p11 #down2 {
+  color: #799290;
+  font-size: 0.7em;
+  padding: 5px 8px;
+  border: 1px solid #799290;
+  border-radius: 50%;
+}
+.should .box .twoo:first-child .should2 #p22 {
+  margin: 10px;
+  padding-left: 30px;
+  display: none;
+  color: #799290;
+}
+.should .box .twoo:first-child .should3 #p111 {
+  margin: 10px;
+  font-size: 1.4em;
+}
+.should .box .twoo:first-child .should3 #p111 #down3 {
+  color: #799290;
+  font-size: 0.7em;
+  padding: 5px 8px;
+  border: 1px solid #799290;
+  border-radius: 50%;
+}
+.should .box .twoo:first-child .should3 #p222 {
+  margin: 10px;
+  padding-left: 30px;
+  display: none;
+  color: #799290;
+}
+.should .box .twoo:first-child .should4 #p1111 {
+  margin: 10px;
+  font-size: 1.4em;
+}
+.should .box .twoo:first-child .should4 #p1111 #down4 {
+  color: #799290;
+  font-size: 0.7em;
+  padding: 5px 8px;
+  border: 1px solid #799290;
+  border-radius: 50%;
+}
+.should .box .twoo:first-child .should4 #p2222 {
+  margin: 10px;
+  padding-left: 30px;
+  display: none;
+  color: #799290;
+}
+@media (max-width: 1249px) {
+  .should .box .twoo:first-child {
+    order: 2;
+  }
+}
+.should .box .twoo:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 2;
+}
+.should .box .twoo:last-child .bordee {
+  width: 80%;
+  height: 50%;
+  background-image: url("./src/dogger_img_sm_1.jpg.webp");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+@media (max-width: 1249px) {
+  .should .box .twoo:last-child {
+    width: 900px;
+    height: 500px;
+  }
+  .should .box .twoo:last-child .bordee {
+    height: 70%;
+  }
+}
+@media (max-width: 770px) {
+  .should .box .twoo:last-child .bordee {
+    height: 40%;
+  }
+}
+@media (max-width: 1249px) {
+  .should .box .twoo:last-child {
+    order: 1;
+  }
+}
+@media (max-width: 770px) {
+  .should .box {
+    font-size: 13px;
   }
 }
 

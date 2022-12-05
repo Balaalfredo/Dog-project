@@ -1,0 +1,189 @@
+.should {
+    width: 100vw;
+    // border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .box {
+        width: 80%;
+        // height: 80%;
+        // border: 2px solid black;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .twoo {
+            width: 500px;
+            height: 640px;
+            // border: 2px solid black;
+        }
+
+        @media(max-width:1249px) {
+            .twoo {
+                width: 800px;
+                height: 500px;
+            }
+        }
+
+        .twoo:first-child {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            order: 1;
+
+            .four {
+                width: 90%;
+                // height: 20%;
+                // border: 2px solid black;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: flex-start;
+                // padding: 30px;
+
+                #p1 {
+                    margin: 10px;
+                    font-size: 1.4em;
+
+                    #down1 {
+                        color: $colorr;
+                        font-size: 0.7em;
+                        padding: 5px 8px;
+                        border: 1px solid $colorr;
+                        border-radius: 50%;
+                    }
+                }
+
+                #p2 {
+                    margin: 10px;
+                    padding-left: 30px;
+                    display: none;
+                    color: $colorr;
+
+                }
+            }
+
+
+            .should2 {
+                #p11 {
+                    margin: 10px;
+                    font-size: 1.4em;
+
+                    #down2 {
+                        color: $colorr;
+                        font-size: 0.7em;
+                        padding: 5px 8px;
+                        border: 1px solid $colorr;
+                        border-radius: 50%;
+                    }
+                }
+
+                #p22 {
+                    margin: 10px;
+                    padding-left: 30px;
+                    display: none;
+                    color: $colorr;
+                }
+            }
+
+            .should3 {
+                #p111 {
+                    margin: 10px;
+                    font-size: 1.4em;
+
+                    #down3 {
+                        color: $colorr;
+                        font-size: 0.7em;
+                        padding: 5px 8px;
+                        border: 1px solid $colorr;
+                        border-radius: 50%;
+                    }
+
+                }
+
+                #p222 {
+                    margin: 10px;
+                    padding-left: 30px;
+                    display: none;
+                    color: $colorr;
+                }
+            }
+
+            .should4 {
+                #p1111 {
+                    margin: 10px;
+                    font-size: 1.4em;
+
+                    #down4 {
+                        color: $colorr;
+                        font-size: 0.7em;
+                        padding: 5px 8px;
+                        border: 1px solid $colorr;
+                        border-radius: 50%;
+                    }
+                }
+
+                #p2222 {
+                    margin: 10px;
+                    padding-left: 30px;
+                    display: none;
+                    color: $colorr;
+                }
+            }
+
+            @media(max-width:1249px) {
+                order: 2;
+            }
+        }
+
+        .twoo:last-child {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            order: 2;
+
+            .bordee {
+                width: 80%;
+                height: 50%;
+                // border: 2px solid black;
+                background-image: url('./src/dogger_img_sm_1.jpg.webp');
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+
+            @media(max-width:1249px) {
+
+                width: 900px;
+                height: 500px;
+
+                .bordee {
+                    height: 70%;
+                }
+
+            }
+
+            @media(max-width:770px) {
+                .bordee {
+                    height: 40%;
+                }
+            }
+
+            @media(max-width:1249px) {
+                order: 1;
+            }
+        }
+
+
+
+
+    }
+
+    @media(max-width:770px) {
+        .box {
+            font-size: 13px;
+        }
+    }
+}
