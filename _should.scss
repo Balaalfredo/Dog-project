@@ -13,6 +13,7 @@
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: wrap;
+        font-size: 16px;
 
         .twoo {
             width: 500px;
@@ -24,6 +25,8 @@
             .twoo {
                 width: 800px;
                 height: 500px;
+
+
             }
         }
 
@@ -44,6 +47,13 @@
                 align-items: flex-start;
                 // padding: 30px;
 
+                #p2,
+                #p22,
+                #p222,
+                #p2222 {
+                    font-size: 1.2em;
+                }
+
                 #p1 {
                     margin: 10px;
                     font-size: 1.4em;
@@ -54,7 +64,12 @@
                         padding: 5px 8px;
                         border: 1px solid $colorr;
                         border-radius: 50%;
+
+
                     }
+
+
+
                 }
 
                 #p2 {
@@ -64,6 +79,8 @@
                     color: $colorr;
 
                 }
+
+
             }
 
 
@@ -181,9 +198,28 @@
 
     }
 
+    @media(max-width:1249px) {
+        .box {
+            font-size: 20px;
+
+            .four {
+
+                #p2,
+                #p22,
+                #p222,
+                #p2222 {
+                    font-size: 1.4em;
+                }
+            }
+
+        }
+    }
+
     @media(max-width:770px) {
         .box {
             font-size: 13px;
         }
     }
+
+
 }

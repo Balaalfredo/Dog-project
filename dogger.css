@@ -836,6 +836,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  font-size: 16px;
 }
 .should .box .twoo {
   width: 500px;
@@ -860,6 +861,12 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
+}
+.should .box .twoo:first-child .four #p2,
+.should .box .twoo:first-child .four #p22,
+.should .box .twoo:first-child .four #p222,
+.should .box .twoo:first-child .four #p2222 {
+  font-size: 1.2em;
 }
 .should .box .twoo:first-child .four #p1 {
   margin: 10px;
@@ -964,6 +971,17 @@
 @media (max-width: 1249px) {
   .should .box .twoo:last-child {
     order: 1;
+  }
+}
+@media (max-width: 1249px) {
+  .should .box {
+    font-size: 20px;
+  }
+  .should .box .four #p2,
+.should .box .four #p22,
+.should .box .four #p222,
+.should .box .four #p2222 {
+    font-size: 1.4em;
   }
 }
 @media (max-width: 770px) {
