@@ -879,6 +879,12 @@
   border: 1px solid #799290;
   border-radius: 50%;
 }
+@media (max-width: 1249px) {
+  .should .box .twoo:first-child .four #p1 #down1 {
+    font-size: 1em;
+    padding: 5px 10px;
+  }
+}
 .should .box .twoo:first-child .four #p2 {
   margin: 10px;
   padding-left: 30px;
@@ -895,6 +901,12 @@
   padding: 5px 8px;
   border: 1px solid #799290;
   border-radius: 50%;
+}
+@media (max-width: 1249px) {
+  .should .box .twoo:first-child .should2 #p11 #down2 {
+    font-size: 1em;
+    padding: 5px 10px;
+  }
 }
 .should .box .twoo:first-child .should2 #p22 {
   margin: 10px;
@@ -913,6 +925,12 @@
   border: 1px solid #799290;
   border-radius: 50%;
 }
+@media (max-width: 1249px) {
+  .should .box .twoo:first-child .should3 #p111 #down3 {
+    font-size: 1em;
+    padding: 5px 10px;
+  }
+}
 .should .box .twoo:first-child .should3 #p222 {
   margin: 10px;
   padding-left: 30px;
@@ -929,6 +947,12 @@
   padding: 5px 8px;
   border: 1px solid #799290;
   border-radius: 50%;
+}
+@media (max-width: 1249px) {
+  .should .box .twoo:first-child .should4 #p1111 #down4 {
+    font-size: 1em;
+    padding: 5px 10px;
+  }
 }
 .should .box .twoo:first-child .should4 #p2222 {
   margin: 10px;

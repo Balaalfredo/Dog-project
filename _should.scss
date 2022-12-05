@@ -68,7 +68,12 @@
 
                     }
 
-
+                    @media(max-width:1249px) {
+                        #down1 {
+                            font-size: 1em;
+                            padding: 5px 10px;
+                        }
+                    }
 
                 }
 
@@ -95,6 +100,15 @@
                         padding: 5px 8px;
                         border: 1px solid $colorr;
                         border-radius: 50%;
+
+
+                    }
+
+                    @media(max-width:1249px) {
+                        #down2 {
+                            font-size: 1em;
+                            padding: 5px 10px;
+                        }
                     }
                 }
 
@@ -119,6 +133,13 @@
                         border-radius: 50%;
                     }
 
+                    @media(max-width:1249px) {
+                        #down3 {
+                            font-size: 1em;
+                            padding: 5px 10px;
+                        }
+                    }
+
                 }
 
                 #p222 {
@@ -140,6 +161,13 @@
                         padding: 5px 8px;
                         border: 1px solid $colorr;
                         border-radius: 50%;
+                    }
+
+                    @media(max-width:1249px) {
+                        #down4 {
+                            font-size: 1em;
+                            padding: 5px 10px;
+                        }
                     }
                 }
 
