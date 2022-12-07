@@ -22,6 +22,7 @@
             transition: 1s;
 
             &:hover {
+                cursor: zoom-in;
                 transform: scaleX(1.3) scaleY(1.2);
                 // box-shadow: 4px 4px 4px 4px black, -4px -4px 4px 4px black, 4px -4px 4px 4px black;
             }
