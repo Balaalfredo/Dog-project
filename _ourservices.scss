@@ -1,0 +1,99 @@
+.checkup {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .check-up {
+        width: 80%;
+        // border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+
+        .checkk {
+            width: 31%;
+            // height: 500px;
+            // border: 2px solid black;
+            margin: 10px;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+
+            .chk {
+                width: 170px;
+                height: 150px;
+                // border: 2px solid black;
+                margin: 15px;
+                background-image: url('./src/dogger_checkup.svg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+
+            }
+
+            #chk2 {
+                background-image: url('./src/dogger_dermatology.svg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            #chk3 {
+                background-image: url('./src/dogger_bones.svg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            #chk4 {
+                background-image: url('./src/dogger_veterinary.svg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            #chk5 {
+                background-image: url('./src/dogger_dryer.svg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            #chk6 {
+                background-image: url('./src/dogger_veterinarian.svg');
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+
+            #chkk {
+                font-size: 2em;
+                font-weight: 600;
+                margin: 15px;
+            }
+
+            #chk {
+                font-size: 1.5em;
+                font-weight: 500;
+                margin: 15px;
+                color: $colorr;
+            }
+
+        }
+
+        @media(max-width:1070px) {
+            .checkk {
+                width: 45%;
+                font-size: 14px;
+            }
+        }
+
+
+
+        @media(max-width: 760px) {
+            .checkk {
+                width: 90%;
+                font-size: 18px;
+            }
+        }
+
+    }
+}
