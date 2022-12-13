@@ -112,7 +112,7 @@
 
 
 #navigation {
-    width: 300px;
+    width: 500px;
     height: 100vh;
     top: 0px;
     position: fixed;
@@ -123,7 +123,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    transform: translateX(300px);
+    transform: translateX(500px);
 
     #navclose {
         width: 100%;

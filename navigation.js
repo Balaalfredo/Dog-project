@@ -3,9 +3,9 @@ const navigation = document.getElementById('navigation');
 const closee = document.getElementById('closee');
 
 
-openn.onclick = () => { navigation.style.transform = 'translateX(0px)'; navigation.style.transition = '1.2s'; }
+openn.onclick = () => { navigation.style.transform = 'translateX(0px)'; navigation.style.transition = '0.6s'; }
 
-closee.onclick = () => { navigation.style.transform = 'translateX(300px)'; navigation.style.transition = '1.2s'; }
+closee.onclick = () => { navigation.style.transform = 'translateX(500px)'; navigation.style.transition = '0.6s'; }
 
 
 // doggpow

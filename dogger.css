@@ -91,7 +91,7 @@
 }
 
 #navigation {
-  width: 300px;
+  width: 500px;
   height: 100vh;
   top: 0px;
   position: fixed;
@@ -101,7 +101,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  transform: translateX(300px);
+  transform: translateX(500px);
 }
 #navigation #navclose {
   width: 100%;
@@ -1481,6 +1481,384 @@
   .checkup .check-up .checkk {
     width: 90%;
     font-size: 18px;
+  }
+}
+
+.contactform {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactform #form {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.contactform #form .leftForm {
+  width: 48%;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  background-color: #A2C0BE;
+}
+.contactform #form .leftForm .contt {
+  font-size: 1.5em;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactform #form .leftForm .contt .contactt {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  color: #797058;
+  margin: 5px;
+}
+.contactform #form .leftForm .contt .contt1 {
+  font-size: 1.3em;
+  font-weight: 550;
+  color: #3a3935;
+}
+.contactform #form .leftForm .contt .contt2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contactform #form .leftForm .contt .contt2 .first-name {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 5px;
+}
+.contactform #form .leftForm .contt .contt2 .first-name input {
+  width: 180px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+@media (max-width: 1285px) {
+  .contactform #form .leftForm .contt .contt2 .first-name input {
+    width: 180px;
+  }
+}
+@media (max-width: 1240px) {
+  .contactform #form .leftForm .contt .contt2 .first-name input {
+    width: 250px;
+  }
+}
+@media (max-width: 1111px) {
+  .contactform #form .leftForm .contt .contt2 .first-name input {
+    width: 240px;
+  }
+}
+@media (max-width: 1010px) {
+  .contactform #form .leftForm .contt .contt2 .first-name input {
+    width: 200px;
+  }
+}
+@media (max-width: 836px) {
+  .contactform #form .leftForm .contt .contt2 .first-name input {
+    width: 150px;
+  }
+}
+@media (max-width: 1285px) {
+  .contactform #form .leftForm .contt .contt2 .first-name {
+    width: 44%;
+  }
+}
+.contactform #form .leftForm .contt .contt2 .last-name {
+  width: 45%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contactform #form .leftForm .contt .contt2 .last-name input {
+  margin: 5px;
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+@media (max-width: 1285px) {
+  .contactform #form .leftForm .contt .contt2 .last-name input {
+    width: 180px;
+  }
+}
+@media (max-width: 1240px) {
+  .contactform #form .leftForm .contt .contt2 .last-name input {
+    width: 250px;
+  }
+}
+@media (max-width: 1111px) {
+  .contactform #form .leftForm .contt .contt2 .last-name input {
+    width: 240px;
+  }
+}
+@media (max-width: 1010px) {
+  .contactform #form .leftForm .contt .contt2 .last-name input {
+    width: 200px;
+  }
+}
+@media (max-width: 836px) {
+  .contactform #form .leftForm .contt .contt2 .last-name input {
+    width: 150px;
+  }
+}
+@media (max-width: 1285px) {
+  .contactform #form .leftForm .contt .contt2 .last-name {
+    width: 44%;
+  }
+}
+@media (max-width: 1111px) {
+  .contactform #form .leftForm .contt .contt2 {
+    justify-content: space-evenly;
+  }
+}
+.contactform #form .leftForm .contt .contt3 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 5px;
+}
+.contactform #form .leftForm .contt .contt3 input {
+  margin: 5px;
+  width: 430px;
+  border-radius: 6px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+@media (max-width: 1240px) {
+  .contactform #form .leftForm .contt .contt3 input {
+    width: 630px;
+  }
+}
+@media (max-width: 1111px) {
+  .contactform #form .leftForm .contt .contt3 input {
+    width: 570px;
+  }
+}
+@media (max-width: 1010px) {
+  .contactform #form .leftForm .contt .contt3 input {
+    width: 470px;
+  }
+}
+@media (max-width: 836px) {
+  .contactform #form .leftForm .contt .contt3 input {
+    width: 370px;
+  }
+}
+.contactform #form .leftForm .contt .contt4 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 5px;
+}
+.contactform #form .leftForm .contt .contt4 input {
+  margin: 5px;
+  width: 430px;
+  border-radius: 6px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+@media (max-width: 1240px) {
+  .contactform #form .leftForm .contt .contt4 input {
+    width: 630px;
+  }
+}
+@media (max-width: 1111px) {
+  .contactform #form .leftForm .contt .contt4 input {
+    width: 570px;
+  }
+}
+@media (max-width: 1010px) {
+  .contactform #form .leftForm .contt .contt4 input {
+    width: 470px;
+  }
+}
+@media (max-width: 836px) {
+  .contactform #form .leftForm .contt .contt4 input {
+    width: 370px;
+  }
+}
+.contactform #form .leftForm .contt .contt5 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 5px;
+}
+.contactform #form .leftForm .contt .contt5 input {
+  margin: 5px;
+  width: 430px;
+  border-radius: 6px;
+  height: 260px;
+  border: none;
+  outline: none;
+}
+@media (max-width: 1240px) {
+  .contactform #form .leftForm .contt .contt5 input {
+    width: 630px;
+  }
+}
+@media (max-width: 1111px) {
+  .contactform #form .leftForm .contt .contt5 input {
+    width: 570px;
+  }
+}
+@media (max-width: 1010px) {
+  .contactform #form .leftForm .contt .contt5 input {
+    width: 470px;
+  }
+}
+@media (max-width: 836px) {
+  .contactform #form .leftForm .contt .contt5 input {
+    width: 370px;
+  }
+}
+.contactform #form .leftForm .contt .contt6 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px 5px;
+}
+.contactform #form .leftForm .contt .contt6 .send {
+  padding: 10px 20px;
+  background-color: #343A40;
+  border-radius: 20px;
+  font-size: 0.7em;
+  color: white;
+}
+.contactform #form .leftForm .contt .contt6 .send:hover {
+  background-color: #0e0e0f;
+}
+.contactform #form .leftForm .contt .contt3,
+.contactform #form .leftForm .contt .contt4,
+.contactform #form .leftForm .contt .contt5 {
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media (max-width: 1250px) {
+  .contactform #form .leftForm .contt {
+    width: 100%;
+  }
+}
+@media (max-width: 1240px) {
+  .contactform #form .leftForm {
+    width: 75%;
+  }
+}
+.contactform #form .rightForm {
+  margin: 10px;
+  width: 48%;
+  height: 775px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: #6C757D;
+  letter-spacing: 2px;
+}
+.contactform #form .rightForm .contact1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactform #form .rightForm .contact1 .cont-pow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2em;
+}
+.contactform #form .rightForm .contact1 .cont-pow #powon {
+  color: #343A40;
+  font-size: 1.3em;
+}
+.contactform #form .rightForm .contact1 .cont-pow span {
+  font-size: 0.5em;
+  color: #A2C0BE;
+}
+.contactform #form .rightForm .contact1 .cont-pow #cons {
+  color: white;
+}
+.contactform #form .rightForm .contact2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactform #form .rightForm .contact2 .address1 {
+  font-size: 1.4em;
+  color: white;
+  margin: 5px;
+}
+.contactform #form .rightForm .contact2 .address2 {
+  font-size: 1em;
+  color: #A8B1B8;
+  margin: 5px;
+}
+.contactform #form .rightForm .contact2 .address3 {
+  font-size: 1em;
+  margin: 5px;
+  color: #A8B1B8;
+}
+.contactform #form .rightForm .contact3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 15px;
+}
+.contactform #form .rightForm .contact3 .phone1 {
+  font-size: 1.4em;
+  color: white;
+  margin: 5px;
+}
+.contactform #form .rightForm .contact3 .phone2 {
+  font-size: 1em;
+  margin: 5px;
+  color: #A8B1B8;
+}
+.contactform #form .rightForm .contact4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.contactform #form .rightForm .contact4 .email1 {
+  font-size: 1.4em;
+  color: white;
+  margin: 5px;
+}
+.contactform #form .rightForm .contact4 .email2 {
+  font-size: 1em;
+  margin: 5px;
+  color: #A8B1B8;
+}
+@media (max-width: 1240px) {
+  .contactform #form .rightForm {
+    width: 75%;
   }
 }
 
