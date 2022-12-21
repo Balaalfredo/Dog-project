@@ -4,9 +4,10 @@
     position: fixed;
     justify-content: space-around;
     font-size: 30px;
-    background-color: #F8F9FA;
+    background-color: rgb(241, 230, 230);
     border-bottom: 2px solid black;
     box-shadow: 2px 1px 5px 2px black;
+    z-index: 5;
 
     .dogger {
         font-size: 35px;

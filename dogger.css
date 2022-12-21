@@ -13,9 +13,10 @@
   position: fixed;
   justify-content: space-around;
   font-size: 30px;
-  background-color: #F8F9FA;
+  background-color: rgb(241, 230, 230);
   border-bottom: 2px solid black;
   box-shadow: 2px 1px 5px 2px black;
+  z-index: 5;
 }
 .nav-bar .dogger {
   font-size: 35px;
@@ -1866,49 +1867,55 @@
   width: 100vw;
   background-color: #333333;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lastt .darkkkk {
+  width: 80%;
+  display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.lastt .last {
+.lastt .darkkkk .last {
   width: 22.5%;
   margin: 10px;
 }
-.lastt .last1 {
+.lastt .darkkkk .last1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   align-self: baseline;
 }
-.lastt .last1 .ipsum1 {
+.lastt .darkkkk .last1 .ipsum1 {
   color: white;
   align-self: flex-start;
   font-size: 1.1em;
   font-weight: 550;
   margin: 10px;
 }
-.lastt .last1 .ipsum2 {
+.lastt .darkkkk .last1 .ipsum2 {
   color: #716D67;
   font-weight: 550;
   text-align: justify;
   align-self: flex-start;
   margin: 10px;
 }
-.lastt .last2 {
+.lastt .darkkkk .last2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   align-self: baseline;
 }
-.lastt .last2 .ql1 {
+.lastt .darkkkk .last2 .ql1 {
   color: white;
   align-self: flex-start;
   font-size: 1.1em;
   font-weight: 550;
   margin: 10px;
 }
-.lastt .last2 .ql2 {
+.lastt .darkkkk .last2 .ql2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -1916,90 +1923,90 @@
   font-size: 1.3em;
   align-self: flex-start;
 }
-.lastt .last2 .ql2 p {
+.lastt .darkkkk .last2 .ql2 p {
   margin: 5px;
   align-self: flex-start;
 }
-.lastt .last2 .ql2 p a {
+.lastt .darkkkk .last2 .ql2 p a {
   text-decoration: none;
   color: #716D67;
 }
-.lastt .last2 .ql2 p:hover a {
+.lastt .darkkkk .last2 .ql2 p:hover a {
   color: white;
 }
-.lastt .last3 {
+.lastt .darkkkk .last3 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   align-self: baseline;
 }
-.lastt .last3 .fu1 {
+.lastt .darkkkk .last3 .fu1 {
   color: white;
   align-self: flex-start;
   font-size: 1.1em;
   font-weight: 550;
   margin: 10px;
 }
-.lastt .last3 .fu2 {
+.lastt .darkkkk .last3 .fu2 {
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: flex-start;
 }
-.lastt .last3 .fu2 span {
+.lastt .darkkkk .last3 .fu2 span {
   margin: 10px;
   font-size: 1.2em;
   color: #716D67;
 }
-.lastt .last3 .fu2 span:hover {
+.lastt .darkkkk .last3 .fu2 span:hover {
   color: white;
   cursor: pointer;
 }
-.lastt .last3 .fu3 {
+.lastt .darkkkk .last3 .fu3 {
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: flex-start;
   margin-left: 20px;
 }
-.lastt .last3 .fu3 span {
+.lastt .darkkkk .last3 .fu3 span {
   margin: 10px;
   font-size: 1.3em;
   font-weight: 550;
   color: #716D67;
 }
-.lastt .last3 .fu3 span:hover {
+.lastt .darkkkk .last3 .fu3 span:hover {
   color: white;
   cursor: pointer;
 }
-.lastt .last4 {
+.lastt .darkkkk .last4 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   align-self: baseline;
 }
-.lastt .last4 .sn1 {
+.lastt .darkkkk .last4 .sn1 {
   color: white;
   align-self: flex-start;
   font-size: 1.1em;
   font-weight: 550;
   margin: 10px;
 }
-.lastt .last4 .sn2 {
+.lastt .darkkkk .last4 .sn2 {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px;
   align-self: flex-start;
 }
-.lastt .last4 .sn2 .div1 {
+.lastt .darkkkk .last4 .sn2 .div1 {
   border: 2px solid white;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-.lastt .last4 .sn2 .div1 input {
+.lastt .darkkkk .last4 .sn2 .div1 input {
   width: 130px;
   border: none;
   height: 40px;
@@ -2007,7 +2014,7 @@
   border-radius: 10px;
   background: transparent;
 }
-.lastt .last4 .sn2 .div2 {
+.lastt .darkkkk .last4 .sn2 .div2 {
   border: 2px solid white;
   padding: 6.8px 14px;
   background-color: aliceblue;
@@ -2026,6 +2033,7 @@
 .lastline {
   width: 100vw;
   background-color: #333333;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2069,7 +2077,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 60%;
   height: 100%;
   flex-direction: column;
   padding: 10%;

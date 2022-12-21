@@ -1,3 +1,5 @@
+AOS.init();
+
 const openn = document.getElementById('openn');
 const navigation = document.getElementById('navigation');
 const closee = document.getElementById('closee');
