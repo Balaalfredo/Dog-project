@@ -13,9 +13,7 @@
   position: fixed;
   justify-content: space-around;
   font-size: 30px;
-  background-color: rgb(241, 230, 230);
-  border-bottom: 2px solid black;
-  box-shadow: 2px 1px 5px 2px black;
+  background-color: transparent;
   z-index: 5;
 }
 .nav-bar .dogger {
@@ -89,6 +87,12 @@
   .nav-bar #menu #openn {
     display: block;
   }
+}
+
+.select {
+  background-color: white;
+  border-bottom: 2px solid gray;
+  box-shadow: 2px 1px 5px 2px black;
 }
 
 #navigation {

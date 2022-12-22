@@ -58,3 +58,16 @@ down4.onclick = () => {
     down1.style.color = '#799290'; down1.style.background = 'white';
 
 }
+
+
+const navBar = document.querySelector('.nav-bar');
+window.addEventListener('scroll', () => {
+    const scrollbar = window.scrollY;
+    if (scrollbar >= 50) {
+        navBar.classList.add('select');
+    }
+    else {
+
+        navBar.classList.remove('select');
+    }
+})
