@@ -1506,268 +1506,180 @@
   width: 48%;
   margin: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: 16px;
   background-color: #A2C0BE;
 }
-.contactform #form .leftForm .contt {
-  font-size: 1.5em;
-  width: 90%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+.contactform #form .leftForm .contt1 {
+  margin: 13px 0;
+  width: 95%;
 }
-.contactform #form .leftForm .contt .contactt {
-  width: 100%;
+.contactform #form .leftForm .fistform {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 5px;
-  color: #797058;
-  margin: 5px;
+  font-size: 2em;
+  color: #405A58;
+  padding: 15px 20px;
+  font-weight: 520;
 }
-.contactform #form .leftForm .contt .contt1 {
+.contactform #form .leftForm .secform {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contactform #form .leftForm .secform .secform-left {
+  width: 47%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.contactform #form .leftForm .secform .secform-left p {
+  margin: 10px 20px;
   font-size: 1.3em;
-  font-weight: 550;
-  color: #3a3935;
+  font-weight: 520;
+  color: #405A58;
 }
-.contactform #form .leftForm .contt .contt2 {
+.contactform #form .leftForm .secform .secform-left #firstname {
+  width: 85%;
+  margin: 10px 20px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  outline-color: blue;
+}
+.contactform #form .leftForm .secform .secform-right {
+  width: 47%;
   display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.contactform #form .leftForm .secform .secform-right p {
+  margin: 10px 20px;
+  font-size: 1.3em;
+  font-weight: 520;
+  color: #405A58;
+}
+.contactform #form .leftForm .secform .secform-right #lastname {
+  width: 85%;
+  margin: 10px 20px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  outline-color: blue;
+}
+.contactform #form .leftForm .thirdform {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
 }
-.contactform #form .leftForm .contt .contt2 .first-name {
-  width: 45%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  margin: 5px;
-}
-.contactform #form .leftForm .contt .contt2 .first-name input {
-  width: 180px;
-  height: 40px;
-  margin: 5px;
-  border-radius: 10px;
-  border: none;
-  outline: none;
-}
-@media (max-width: 1285px) {
-  .contactform #form .leftForm .contt .contt2 .first-name input {
-    width: 180px;
-  }
-}
-@media (max-width: 1240px) {
-  .contactform #form .leftForm .contt .contt2 .first-name input {
-    width: 250px;
-  }
-}
-@media (max-width: 1111px) {
-  .contactform #form .leftForm .contt .contt2 .first-name input {
-    width: 240px;
-  }
-}
-@media (max-width: 1010px) {
-  .contactform #form .leftForm .contt .contt2 .first-name input {
-    width: 200px;
-  }
-}
-@media (max-width: 836px) {
-  .contactform #form .leftForm .contt .contt2 .first-name input {
-    width: 150px;
-  }
-}
-@media (max-width: 1285px) {
-  .contactform #form .leftForm .contt .contt2 .first-name {
-    width: 44%;
-  }
-}
-.contactform #form .leftForm .contt .contt2 .last-name {
-  width: 45%;
-  margin: 5px;
+.contactform #form .leftForm .thirdform .ttff {
+  width: 95%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
 }
-.contactform #form .leftForm .contt .contt2 .last-name input {
-  margin: 5px;
-  width: 180px;
-  height: 40px;
-  border-radius: 10px;
+.contactform #form .leftForm .thirdform .ttff p {
+  margin: 10px 20px;
+  font-size: 1.3em;
+  font-weight: 520;
+  color: #405A58;
+}
+.contactform #form .leftForm .thirdform .ttff #email {
+  width: 95%;
+  height: 50px;
+  margin: 10px 15px;
   border: none;
-  outline: none;
+  border-radius: 8px;
+  outline-color: blue;
 }
-@media (max-width: 1285px) {
-  .contactform #form .leftForm .contt .contt2 .last-name input {
-    width: 180px;
-  }
+.contactform #form .leftForm .fourthform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@media (max-width: 1240px) {
-  .contactform #form .leftForm .contt .contt2 .last-name input {
-    width: 250px;
-  }
-}
-@media (max-width: 1111px) {
-  .contactform #form .leftForm .contt .contt2 .last-name input {
-    width: 240px;
-  }
-}
-@media (max-width: 1010px) {
-  .contactform #form .leftForm .contt .contt2 .last-name input {
-    width: 200px;
-  }
-}
-@media (max-width: 836px) {
-  .contactform #form .leftForm .contt .contt2 .last-name input {
-    width: 150px;
-  }
-}
-@media (max-width: 1285px) {
-  .contactform #form .leftForm .contt .contt2 .last-name {
-    width: 44%;
-  }
-}
-@media (max-width: 1111px) {
-  .contactform #form .leftForm .contt .contt2 {
-    justify-content: space-evenly;
-  }
-}
-.contactform #form .leftForm .contt .contt3 {
+.contactform #form .leftForm .fourthform .forformbor {
+  width: 95%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  margin: 5px;
 }
-.contactform #form .leftForm .contt .contt3 input {
-  margin: 5px;
-  width: 430px;
-  border-radius: 6px;
-  height: 40px;
+.contactform #form .leftForm .fourthform .forformbor p {
+  margin: 10px 20px;
+  font-size: 1.3em;
+  font-weight: 520;
+  color: #405A58;
+}
+.contactform #form .leftForm .fourthform .forformbor #subject {
+  width: 95%;
+  height: 50px;
+  margin: 10px 15px;
   border: none;
-  outline: none;
+  border-radius: 8px;
+  outline-color: blue;
 }
-@media (max-width: 1240px) {
-  .contactform #form .leftForm .contt .contt3 input {
-    width: 630px;
-  }
+.contactform #form .leftForm .fivethform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@media (max-width: 1111px) {
-  .contactform #form .leftForm .contt .contt3 input {
-    width: 570px;
-  }
-}
-@media (max-width: 1010px) {
-  .contactform #form .leftForm .contt .contt3 input {
-    width: 470px;
-  }
-}
-@media (max-width: 836px) {
-  .contactform #form .leftForm .contt .contt3 input {
-    width: 370px;
-  }
-}
-.contactform #form .leftForm .contt .contt4 {
+.contactform #form .leftForm .fivethform .fiveforbor {
+  width: 95%;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  margin: 5px;
 }
-.contactform #form .leftForm .contt .contt4 input {
-  margin: 5px;
-  width: 430px;
-  border-radius: 6px;
-  height: 40px;
+.contactform #form .leftForm .fivethform .fiveforbor p {
+  margin: 10px 20px;
+  font-size: 1.3em;
+  font-weight: 520;
+  color: #405A58;
+}
+.contactform #form .leftForm .fivethform .fiveforbor #txtarea {
+  width: 95%;
+  height: 50px;
+  margin: 10px 15px;
   border: none;
-  outline: none;
+  border-radius: 8px;
+  outline-color: blue;
 }
-@media (max-width: 1240px) {
-  .contactform #form .leftForm .contt .contt4 input {
-    width: 630px;
-  }
-}
-@media (max-width: 1111px) {
-  .contactform #form .leftForm .contt .contt4 input {
-    width: 570px;
-  }
-}
-@media (max-width: 1010px) {
-  .contactform #form .leftForm .contt .contt4 input {
-    width: 470px;
-  }
-}
-@media (max-width: 836px) {
-  .contactform #form .leftForm .contt .contt4 input {
-    width: 370px;
-  }
-}
-.contactform #form .leftForm .contt .contt5 {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  margin: 5px;
-}
-.contactform #form .leftForm .contt .contt5 input {
-  margin: 5px;
-  width: 430px;
-  border-radius: 6px;
-  height: 260px;
-  border: none;
-  outline: none;
-}
-@media (max-width: 1240px) {
-  .contactform #form .leftForm .contt .contt5 input {
-    width: 630px;
-  }
-}
-@media (max-width: 1111px) {
-  .contactform #form .leftForm .contt .contt5 input {
-    width: 570px;
-  }
-}
-@media (max-width: 1010px) {
-  .contactform #form .leftForm .contt .contt5 input {
-    width: 470px;
-  }
-}
-@media (max-width: 836px) {
-  .contactform #form .leftForm .contt .contt5 input {
-    width: 370px;
-  }
-}
-.contactform #form .leftForm .contt .contt6 {
+.contactform #form .leftForm .sixthform {
   display: flex;
   justify-content: flex-start;
-  align-items: flex-start;
-  margin: 10px 5px;
+  align-items: center;
 }
-.contactform #form .leftForm .contt .contt6 .send {
-  padding: 10px 20px;
-  background-color: #343A40;
-  border-radius: 20px;
-  font-size: 0.7em;
+.contactform #form .leftForm .sixthform .send-ms-bor {
+  width: 35%;
+  height: 50px;
+  display: flex;
+  margin: 15px;
   color: white;
+  background-color: #343A40;
+  font-size: 1.2em;
+  padding: 10px;
+  font-weight: 530;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
 }
-.contactform #form .leftForm .contt .contt6 .send:hover {
-  background-color: #0e0e0f;
+.contactform #form .leftForm .sixthform .send-ms-bor:hover {
+  background-color: #121313;
+  cursor: pointer;
 }
-.contactform #form .leftForm .contt .contt3,
-.contactform #form .leftForm .contt .contt4,
-.contactform #form .leftForm .contt .contt5 {
-  align-items: flex-start;
-  flex-direction: column;
-}
-@media (max-width: 1250px) {
-  .contactform #form .leftForm .contt {
-    width: 100%;
+@media (max-width: 820px) {
+  .contactform #form .leftForm .sixthform .send-ms-bor {
+    font-size: 0.8em;
+    width: 50%;
   }
 }
-@media (max-width: 1240px) {
+@media (max-width: 1274px) {
   .contactform #form .leftForm {
     width: 75%;
   }
@@ -1861,7 +1773,7 @@
   margin: 5px;
   color: #A8B1B8;
 }
-@media (max-width: 1240px) {
+@media (max-width: 1274px) {
   .contactform #form .rightForm {
     width: 75%;
   }
