@@ -32,6 +32,7 @@
 
             &:hover {
                 color: $colorr ;
+                cursor: pointer;
             }
         }
 
@@ -47,41 +48,83 @@
 
 
             .trade {
-
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
                 position: absolute;
                 top: 70px;
                 width: 200px;
-
+                // height: 300px;
+                // border-left: 2px solid black;
+                border-bottom: 2px solid rgb(109, 99, 99);
+                background-color: white;
                 display: none;
 
                 &:hover {
                     color: black;
                 }
 
-                ul {
-                    margin: 0;
+                div:first-child {
+                    border-top: 3px solid red;
+                }
 
-                    font-size: 30px;
+                #moredis {
+                    &:hover+.div-rig-bor {
+                        display: block;
+                    }
+                }
+
+
+
+                div {
+                    // margin: 5px;
+                    width: 100%;
+                    font-size: 20px;
                     line-height: 40px;
                     font-weight: 550;
                     list-style: none;
-                    background-color: rgba(243, 235, 235, 0.954);
-                    height: 300px;
-                    border-top: 2px solid grey;
-                    box-shadow: 2px 1px 5px 2px black;
+                    background-color: white;
+                    // height: 300px;
+                    // border-top: 2px solid grey;
+                    // box-shadow: 2px 1px 5px 2px black;
 
-                    li {
-                        text-align: center;
-                        cursor: pointer;
-                    }
 
-                    li:hover {
-                        background-color: rgb(210, 185, 185);
+                    text-align: center;
+                    cursor: pointer;
+
+
+                    &:hover {
+                        background-color: rgb(231, 211, 211);
                         color: black;
                     }
 
 
                 }
+
+                .div-rig-bor {
+                    border: 2px solid rgb(213, 193, 193);
+                    display: none;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    position: absolute;
+                    right: -195px;
+                    top: 250px;
+
+                    p {
+                        font-size: 1.1em;
+                        width: 100%;
+                        // border: 2px solid black;
+
+                        &:hover {
+                            background-color: black;
+                            color: white;
+                        }
+                    }
+
+                }
+
             }
         }
 
@@ -98,6 +141,10 @@
         margin-right: 50px;
         display: none;
         margin: 40px;
+
+        &:hover {
+            cursor: pointer;
+        }
     }
 
     @media(max-width:1000px) {
@@ -171,6 +218,7 @@
         flex-direction: column;
 
         p {
+            width: 100%;
             margin: 20px 0;
             padding: 10px 80px;
             padding-left: 0px;
@@ -180,14 +228,18 @@
 
             &:hover {
                 background-color: rgb(228, 204, 204);
+                cursor: pointer;
             }
         }
 
-        p:nth-child(2) {
-            display: flex;
-
-        }
 
 
+
+    }
+}
+
+@media(min-width:990px) {
+    #navigation {
+        display: none;
     }
 }
