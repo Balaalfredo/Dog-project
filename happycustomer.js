@@ -1,5 +1,5 @@
 const box = document.querySelectorAll('.box');
-console.log(box)
+
 const leftarrow = document.querySelector('#leftarrow');
 const rightarrow = document.querySelector('#rightarrow');
 
