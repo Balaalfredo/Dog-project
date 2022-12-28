@@ -1,6 +1,9 @@
 const photos = document.querySelectorAll('.photos');
 const bigBox = document.querySelector('.big-box');
 const closeee = document.querySelector('.closeee');
+const zoom = document.querySelector('.rightright');
+const leftleft = document.querySelector('.leftleft');
+const rightright = document.querySelector('.rightright');
 
 
 
@@ -10,7 +13,7 @@ photos.forEach((a, index) => {
         bigBox.style.visibility = 'visible';
         const copy = a.cloneNode(true);
         copy.style.width = '850px';
-        bigBox.style.width = '90%';
+        bigBox.style.width = '100%';
 
         copy.style.height = '650px'; bigBox.style.transition = '1.2s';
         copy.style.boxShadow = '3px 3px 3px 3px black';
@@ -21,18 +24,27 @@ photos.forEach((a, index) => {
             bigBox.style.width = '0';
         })
 
+        leftleft.addEventListener('click', () => {
 
-        copy.addEventListener('click', () => {
+
+
+        })
+
+
+        zoom.addEventListener('click', () => {
             copy.style.transition = '1.2s';
             copy.style.transform = 'scale(1.3)';
 
         })
 
-        copy.addEventListener('dblclick', () => {
+        zoom.addEventListener('dblclick', () => {
             copy.style.transition = '1.2s';
             copy.style.transform = 'scale(1)';
 
         })
+
+
+
 
     })
 
