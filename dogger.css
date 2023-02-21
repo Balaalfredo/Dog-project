@@ -1886,7 +1886,7 @@
 }
 
 .lastt {
-  width: 100vw;
+  width: 98vw;
   background-color: #333333;
   display: flex;
   justify-content: center;
@@ -2053,7 +2053,7 @@
   }
 }
 .lastline {
-  width: 100vw;
+  width: 98vw;
   background-color: #333333;
   height: 500px;
   display: flex;
