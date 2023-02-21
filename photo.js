@@ -24,11 +24,6 @@ photos.forEach((a, index) => {
             bigBox.style.width = '0';
         })
 
-        leftleft.addEventListener('click', () => {
-
-
-
-        })
 
 
         zoom.addEventListener('click', () => {

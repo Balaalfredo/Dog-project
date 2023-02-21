@@ -898,14 +898,14 @@
   }
 }
 
-#p1 {
+#p1two {
   background-image: url("./src/dogger_img_sm_1.jpg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#p2 {
+#p2one {
   background-image: url("./src/dogger_img_sm_2.jpg.webp");
   background-size: cover;
   background-position: center;
@@ -1118,9 +1118,9 @@
     font-size: 20px;
   }
   .should .box .four #p2,
-.should .box .four #p22,
-.should .box .four #p222,
-.should .box .four #p2222 {
+  .should .box .four #p22,
+  .should .box .four #p222,
+  .should .box .four #p2222 {
     font-size: 1.4em;
   }
 }
